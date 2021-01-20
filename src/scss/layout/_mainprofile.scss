@@ -1,0 +1,11 @@
+.centralColumn {
+  margin: 0 20px;
+}
+
+.mainProfile {
+  width: 100%;
+  background-image: linear-gradient(to bottom, #f5f5f5, #ffffff 9%);
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
