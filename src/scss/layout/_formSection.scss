@@ -1,0 +1,61 @@
+.form {
+  width: 100%;
+  grid-column: span 2;
+}
+.design__square {
+  &-label {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &-radio {
+    margin-right: rem(10);
+  }
+
+  &-color {
+    display: inline-block;
+    width: rem(30);
+    height: rem(25);
+    overflow: hidden;
+    // ¿está declarando la variable aquí??
+    color: rgba($color: white, $alpha: 0);
+    list-style: none;
+  }
+}
+
+.palette-1 {
+  .color-1 {
+    background-color: $color-palette1-a;
+  }
+  .color-2 {
+    background-color: $color-palette1-b;
+  }
+  .color-3 {
+    background-color: $color-palette1-c;
+  }
+}
+
+.palette-2 {
+  .color-1 {
+    background-color: $color-palette2-a;
+  }
+  .color-2 {
+    background-color: $color-palette2-b;
+  }
+  .color-3 {
+    background-color: $color-palette2-b;
+  }
+}
+
+.palette-3 {
+  .color-1 {
+    background-color: $color-palette3-a;
+  }
+  .color-2 {
+    background-color: $color-palette3-b;
+  }
+  .color-3 {
+    background-color: $color-palette3-c;
+  }
+}
