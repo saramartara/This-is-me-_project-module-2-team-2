@@ -3,7 +3,7 @@
   width: 100%;
   grid-column: span 2;
   &__wrapper {
-    width: 320px;
+    width: rem(320);
     margin: auto;
   }
 }
