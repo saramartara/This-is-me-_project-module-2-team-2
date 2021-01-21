@@ -1,14 +1,16 @@
 .header {
   width: 100%;
-  height: 111px;
+  height: rem(111);
 
   &__wrapper {
-    width: 320px;
+    width: rem(320);
+    height: rem(111);
     margin: auto;
-    border: rebeccapurple 2px solid;
+    padding: rem(31) rem(79) rem(30) rem(40);
 
     &--brandCard {
-      padding: 31px 79px 30px 40px;
+      width: rem(201);
+      height: rem(50);
     }
   }
 }
