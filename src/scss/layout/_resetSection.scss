@@ -1,7 +1,11 @@
 .resetSection {
+  background-color: pink;
   width: 100%;
   grid-column: span 2;
-  border: 2px solid purple;
+  &__wrapper {
+    width: 320px;
+    margin: auto;
+  }
 }
 
 .article {
