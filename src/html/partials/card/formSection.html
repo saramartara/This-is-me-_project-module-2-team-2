@@ -1,94 +1,11 @@
 <!-- Formulario -->
 <form class="form" action="" method="POST">
-
-    <!-- Forumulario: Diseña  -->
-  <fieldset class="collapsable">
-    <legend class="collapsable__header design">
-        <i class="icon--left fa fa-object-ungroup" aria-hidden="true"></i>
-        <span class="collapsable__title">Diseña</span>
-        <i class="icon--right fa fa-angle-down" aria-hidden="true"></i>
-
-      <!-- transición icono flecha -->
-      <!-- <i class="icon--click fa fa-angle-up" aria-hidden="true"></i> --> 
-    </legend>
-
-    <div class="collapsable__content design">
-        <label class="display-block design__square-label">
-          <input type="radio" name="palette" class="design__square-radio" checked />
-          <ul class="palette-1">
-            <li class="design__square-color color-1">Color A</li>
-            <li class="design__square-color color-2">Color B</li>
-            <li class="design__square-color color-3">Color C</li>
-          </ul>
-        </label>
-    
-        <label class="display-block design__square-label">
-          <input type="radio" name="palette" class="design__square-radio" />
-          <ul class="palette-2">
-            <li class="design__square-color color-1">Color A</li>
-            <li class="design__square-color color-2">Color B</li>
-            <li class="design__square-color color-3">Color C</li>
-          </ul>
-        </label>
-    
-        <label class="display-block design__square-label">
-          <input type="radio" name="palette" class="design__square-radio" />
-          <ul class="palette-3">
-            <li class="design__square-color color-1">Color A</li>
-            <li class="design__square-color color-2">Color B</li>
-            <li class="design__square-color color-3">Color C</li>
-          </ul>
-        </label>
-  </fieldset>
+  <!-- Forumulario: Diseña  -->
+  <include src="./design.html"></include>
 
   <!-- Formulario: Rellena -->
-  <fieldset class="collapsable">
-    <legend class="collapsable__header fill">
-        <i class="icon__left fa fa-keyboard-o" aria-hidden="true"></i>
-        <span class="collapsable__title">Rellena</span>
-        <i class="icon--right fa fa-angle-down" aria-hidden="true"></i>
-    </legend>
-
-    <div class="collapsable__content fill">
-        <label for="name" class="form__label">Nombre completo</label>
-        <input type="text" id="name" class="form__inputText"/>
-
-        <label for="job" class="form__label">Profesión</label>
-        <input type="text" id="job" class="form__inputText"/>
-
-        <label for="photo" class="form__label">Imagen de perfil</label>
-        <div class="fillPhoto">
-            <button class="card__btn">Añadir imagen</button>
-            <div class="fillPhoto__preview"></div>
-        </div>
-
-        <label for="email" class="form__label">Email</label>
-        <input id= "email" type="email" class="form__inputText">
-
-        <label for="phone" class="form__label">Teléfono</label>
-        <input id="phone" type="tel" class="form__inputText">
-
-
-        <label for="linkedin" class="form__label">Linkedin</label>
-        <input id="linkedin" type="text" class="form__inputText">
-
-        <label for="github" class="form__label">GitHub</label>
-        <input id="github" type="text" class="form__inputText">
-
-    </div>
-  </fieldset>
+  <include src="./fill.html"></include>
 
   <!-- Formulario: Comparte  -->
-  <fieldset class="collapsable">
-    <legend class="collapsable__header share">
-        <i class="icon__left fa fa-share-alt" aria-hidden="true"></i>
-        <span class="collapsable__title">Comparte</span>
-        <i class="icon--right fa fa-angle-down" aria-hidden="true"></i>
-    </legend>
-
-    <div class="collapsable__content share">
-        <button class="card__btn">Crear tarjeta</button>
-
-    </div>
-  </fieldset>
+  <include src="./share.html"></include>
 </form>
