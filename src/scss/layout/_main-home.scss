@@ -1,5 +1,5 @@
 .main {
-  background-color: $color-grey-main;
+  background-color: $colorBgHome;
   width: 100%;
   height: 458px;
   display: flex;
@@ -24,9 +24,58 @@
   align-items: center;
 }
 .main__slogan--title {
-  color: $color-dull-orange;
+  color: $colorIcon;
+  font-family: $fontTitle;
+  font-size: 19.2px; /*cambiar a rem*/
 }
 .main__slogan--text {
   width: 264.8px;
   text-align: center;
+  color: $colorMediaA;
+  font-size: $sizeHome;
+  font-family: $fontText;
+  font-size: 12.8px; /*cambiar a rem*/
+}
+
+.main__icons {
+  display: flex;
+  justify-content: space-around;
+  border: solid 1.6px rgba($color: $colorIcon, $alpha: 0.21);
+  border-radius: 4px;
+  width: 268px;
+  height: 73.8px;
+}
+.main__icons--tandem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+}
+.main__icons--sections {
+  font-family: $fontText;
+  color: $colorSections;
+  font-size: 12.8px; /*cambiar a rem*/
+}
+.far {
+  color: $colorIcon;
+  font-size: 22.4px; /*cambiar a rem*/
+}
+.fas {
+  color: $colorIcon;
+  font-size: 22.4px; /*cambiar a rem*/
+}
+.main__start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 129px;
+  height: 42px;
+  border-radius: 21px;
+  background-color: $colorMediaB;
+  color: $colorBg;
+  text-transform: uppercase;
+  font-family: $fontText;
+  font-weight: 600;
 }
