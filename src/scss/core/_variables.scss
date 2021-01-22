@@ -1,4 +1,4 @@
-$defaultFontSize: 16px;
+$defaultFontSize: 16;
 
 // fonts
 $fontTitle: "Merriweather", serif;
@@ -19,7 +19,9 @@ $colorComplementaryB: #f9f4dc;
 $colorBg: #ffffff;
 $colorIcon: #e17334;
 $colorBgHome: #f5f5f5;
-$colorSections: #54585a; /*añadir a la main*/
+$colorSections: #54585a;
+$colorSmall: #6b6b6b; /*subir al main*/
+$colorBorFooter: #d8d8d8; /*subir al main*/
 
 //colors palette-1
 $colorPalette1A: $colorMediaA;
