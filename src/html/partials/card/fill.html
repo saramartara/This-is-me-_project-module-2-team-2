@@ -1,32 +1,65 @@
 <!-- Formulario: Rellena -->
 <fieldset class="collapsable">
-
-
-  <include src="./headerForm.html" icon="fa fa-keyboard-o" title="Rellena"></include>
+  <include
+    src="./headerForm.html"
+    icon="fa fa-keyboard-o"
+    title="Rellena"
+  ></include>
 
   <div class="collapsable__content fill">
     <label for="name" class="form__label">Nombre completo</label>
-    <input type="text" id="name" class="form__inputText" />
+    <input
+      type="text"
+      id="name"
+      class="form__inputText"
+      placeholder="Ej: Sally Jill"
+    />
 
-    <label for="job" class="form__label">Profesión</label>
-    <input type="text" id="job" class="form__inputText" />
+    <label for="job" class="form__label">Puesto</label>
+    <input
+      type="text"
+      id="job"
+      class="form__inputText"
+      placeholder="Ej: Front-end unicorn "
+    />
 
     <label for="photo" class="form__label">Imagen de perfil</label>
-    <div class="fillPhoto">
-      <button class="card__btn">Añadir imagen</button>
-      <div class="fillPhoto__preview"></div>
+    <div class="photo">
+      <!-- <input class="TEST" type="file" /> -->
+      <button class="photo__btn">Añadir imagen</button>
+      <input class="photo__preview" id="photo" />
     </div>
 
     <label for="email" class="form__label">Email</label>
-    <input id="email" type="email" class="form__inputText" />
+    <input
+      id="email"
+      type="email"
+      class="form__inputText"
+      placeholder="Ej: sally-hill@gmail.com "
+    />
 
     <label for="phone" class="form__label">Teléfono</label>
-    <input id="phone" type="tel" class="form__inputText" />
+    <input
+      id="phone"
+      type="tel"
+      class="form__inputText"
+      placeholder="Ej: 555666888"
+    />
 
     <label for="linkedin" class="form__label">Linkedin</label>
-    <input id="linkedin" type="text" class="form__inputText" />
+    <input
+      id="linkedin"
+      type="text"
+      class="form__inputText"
+      placeholder="Ej: linkekin.com/in/sally..sally-hill"
+    />
 
-    <label for="github" class="form__label">GitHub</label>
-    <input id="github" type="text" class="form__inputText" />
+    <label for="github" class="form__label">Github</label>
+    <input
+      id="github"
+      type="text"
+      class="form__inputText"
+      placeholder="Ej: @sally-hill"
+    />
   </div>
 </fieldset>

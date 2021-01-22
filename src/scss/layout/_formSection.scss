@@ -1,11 +1,9 @@
 .form {
-  width: 100%;
+  width: rem(320);
 }
 .wrapper {
   width: rem(320);
-  margin: auto;
   padding: 0 rem(20);
-  border: solid blue 2px;
   @include tablet {
     max-width: 399;
   }

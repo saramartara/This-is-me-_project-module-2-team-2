@@ -1,0 +1,50 @@
+@mixin fontNormal {
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+.fill {
+  margin-bottom: rem(30);
+}
+.form {
+  width: 100%;
+  &__label {
+    display: block;
+    font-family: $fontText;
+    font-size: $sizeSmall;
+    color: $colorMediaA;
+    line-height: rem(20);
+    @include fontNormal();
+    padding: rem(20) 0 rem(7) 0;
+  }
+  &__inputText {
+    font-family: $fontText;
+    font-size: $sizeSmall;
+    color: #c5c5c5;
+    line-height: rem(20);
+    @include fontNormal();
+    padding-left: rem(9);
+    border: rem(1) solid $colorMediaC;
+  }
+}
+.photo {
+  display: flex;
+  flex-direction: row;
+  &__btn {
+    width: rem(140);
+    height: rem(30);
+    background-color: $colorIcon;
+    border-radius: rem(3);
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
+    font-family: $fontText;
+    font-size: $sizeSmall;
+    color: $colorBg;
+  }
+  &__preview {
+    border: 1px solid $colorMediaC;
+    width: rem(30);
+    height: rem(30);
+    margin: 0 rem(74) 0 rem(20);
+  }
+}
