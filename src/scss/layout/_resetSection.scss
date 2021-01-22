@@ -16,6 +16,10 @@
       border-radius: rem(15);
       margin: rem(38) 0 rem(20) 0;
       background-color: transparent;
+      font-family: $fontText;
+      color: $colorTitle;
+      font-size: rem(12);
+      text-transform: uppercase;
     }
   }
 }
@@ -27,21 +31,36 @@
   height: rem(329);
   margin: auto;
   background-color: $colorBg;
+
+  &__bar {
+    width: rem(5);
+    height: rem(42);
+    display: inline-block;
+    position: absolute;
+    margin-top: rem(23);
+    background-color: $colorMediaB;
+  }
   &__name {
-    font-size: rem(18);
+    font-family: $fontSecondary;
     padding-top: rem(21);
     padding-left: rem(20);
+    color: $colorMediaA;
+    font-size: $sizeTitle;
+    line-height: rem(20);
+    padding: rem(23) 0 rem(4) rem(20);
   }
   &__subtitle {
+    font-family: $fontSecondary;
     font-size: rem(16);
     padding-bottom: rem(10);
-    padding-left: rem(20);
+    padding: 0 0 rem(10) rem(20);
+    font-weight: normal;
+    color: $colorTitle;
+    line-height: rem(20);
   }
   &__photo {
     width: rem(240);
     height: rem(200);
-    padding-top: rem(20);
-    border: 2px gray solid;
   }
 }
 .social {
@@ -54,10 +73,12 @@
     &--item {
       width: rem(32);
       height: rem(32);
-      border: rem(2) solid cyan;
+      border: rem(2) solid $colorMediaC;
       border-radius: 50%;
-      padding: rem(10);
+      padding: rem(12);
       margin: rem(5) rem(5) rem(12) rem(5);
+      color: $colorTitle;
+      font-size: $sizeTitle;
       display: flex;
       justify-content: center;
       align-items: center;
