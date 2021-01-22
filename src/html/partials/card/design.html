@@ -1,39 +1,35 @@
- <!-- Forumulario: Diseña  -->
- <fieldset class="collapsable">
-    <legend class="collapsable__header">
-        <i class="icon--left fa fa-object-ungroup" aria-hidden="true"></i>
-        <span class="collapsable__title">Diseña</span>
-        <i class="icon--right fa fa-angle-down" aria-hidden="true"></i>
+<!-- Forumulario: Diseña  -->
 
-      <!-- transición icono flecha -->
-      <!-- <i class="icon--click fa fa-angle-up" aria-hidden="true"></i> --> 
-    </legend>
+<fieldset class="collapsable">
 
-    <div class="contentDesign">
-        <label for="palette" class="design__square-label"> Colores
-        <input id="palette" type="radio" name="palette" class="design__square-radio" checked />
-          <ul class="palette-1">
-            <li class="design__square-color color-1">Color A</li>
-            <li class="design__square-color color-2">Color B</li>
-            <li class="design__square-color color-3">Color C</li>
-          </ul>
-        </label>
-    
-        <label class="display-block design__square-label">
-          <input type="radio" name="palette" class="design__square-radio" />
-          <ul class="palette-2">
-            <li class="design__square-color color-1">Color A</li>
-            <li class="design__square-color color-2">Color B</li>
-            <li class="design__square-color color-3">Color C</li>
-          </ul>
-        </label>
-    
-        <label class="display-block design__square-label">
-          <input type="radio" name="palette" class="design__square-radio" />
-          <ul class="palette-3">
-            <li class="design__square-color color-1">Color A</li>
-            <li class="design__square-color color-2">Color B</li>
-            <li class="design__square-color color-3">Color C</li>
-          </ul>
-        </label>
-  </fieldset>
+  <include src="./headerForm.html" icon="fa fa-object-ungroup" title="Diseña"></include>
+
+
+  <div class="contentDesign">
+    <label for="palette" class="design__square-label"> Colores
+      <input id="palette" type="radio" name="palette" class="design__square-radio" checked />
+      <ul class="palette-1">
+        <li class="design__square-color color-1">Color A</li>
+        <li class="design__square-color color-2">Color B</li>
+        <li class="design__square-color color-3">Color C</li>
+      </ul>
+    </label>
+
+    <label class="display-block design__square-label">
+      <input type="radio" name="palette" class="design__square-radio" />
+      <ul class="palette-2">
+        <li class="design__square-color color-1">Color A</li>
+        <li class="design__square-color color-2">Color B</li>
+        <li class="design__square-color color-3">Color C</li>
+      </ul>
+    </label>
+
+    <label class="display-block design__square-label">
+      <input type="radio" name="palette" class="design__square-radio" />
+      <ul class="palette-3">
+        <li class="design__square-color color-1">Color A</li>
+        <li class="design__square-color color-2">Color B</li>
+        <li class="design__square-color color-3">Color C</li>
+      </ul>
+    </label>
+</fieldset>

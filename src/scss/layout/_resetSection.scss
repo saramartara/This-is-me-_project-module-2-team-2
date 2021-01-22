@@ -1,14 +1,22 @@
 .resetSection {
   background-image: linear-gradient(to bottom, #bfcdd0, #dde9ed);
   width: 100%;
-  grid-column: span 2;
+  @include tablet {
+    max-width: rem(329);
+    padding-top: rem(200);
+    padding-bottom: rem(260);
+    margin: rem(40) rem(40);
+    border-radius: rem(5);
+  }
 
   &__wrapper {
     width: rem(320);
     height: rem(457);
     margin: auto;
     padding: 0 rem(35) rem(40) rem(45);
-
+    /*  @include tablet {
+      padding: rem(20) 0;
+ */
     &--button {
       width: rem(75);
       height: rem(30);

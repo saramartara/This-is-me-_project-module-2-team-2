@@ -1,6 +1,11 @@
 .mainProfile {
   width: 100%;
   background-image: linear-gradient(to bottom, #f5f5f5, #ffffff 9%);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  @include tablet {
+    max-width: rem(768);
+    flex-direction: row-reverse;
+    margin: auto;
+  }
 }
