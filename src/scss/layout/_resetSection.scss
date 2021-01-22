@@ -12,7 +12,7 @@
     &--button {
       width: rem(75);
       height: rem(30);
-      border: rem(1) solid #ffffff;
+      border: rem(1) solid $colorBg;
       border-radius: rem(15);
       margin: rem(38) 0 rem(20) 0;
       background-color: transparent;
@@ -26,7 +26,7 @@
   width: rem(240);
   height: rem(329);
   margin: auto;
-  background-color: $color-white-three;
+  background-color: $colorBg;
   &__name {
     font-size: rem(18);
     padding-top: rem(21);
