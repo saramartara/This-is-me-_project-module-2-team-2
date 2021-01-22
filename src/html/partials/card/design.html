@@ -1,35 +1,45 @@
 <!-- Forumulario: Diseña  -->
 
 <fieldset class="collapsable">
+  <include
+    src="./headerForm.html"
+    icon="fa fa-object-ungroup"
+    title="Diseña"
+  ></include>
 
-  <include src="./headerForm.html" icon="fa fa-object-ungroup" title="Diseña"></include>
-
-
-  <div class="contentDesign">
-    <label for="palette" class="design__square-label"> Colores
-      <input id="palette" type="radio" name="palette" class="design__square-radio" checked />
-      <ul class="palette-1">
-        <li class="design__square-color color-1">Color A</li>
-        <li class="design__square-color color-2">Color B</li>
-        <li class="design__square-color color-3">Color C</li>
+  <div class="design">
+    <label for="palette1" class="design__label">
+      <div class="colors">Colores</div>
+      <input
+        id="palette1"
+        type="radio"
+        name="palette"
+        class="design__radio"
+        checked
+      />
+      <ul class="palette1__list">
+        <li class="design__color color1">Color A</li>
+        <li class="design__color color2">Color B</li>
+        <li class="design__color color3">Color C</li>
       </ul>
     </label>
 
-    <label class="display-block design__square-label">
-      <input type="radio" name="palette" class="design__square-radio" />
-      <ul class="palette-2">
-        <li class="design__square-color color-1">Color A</li>
-        <li class="design__square-color color-2">Color B</li>
-        <li class="design__square-color color-3">Color C</li>
+    <label for="palette2" class="design__label">
+      <input id="pallete2" type="radio" name="palette" class="design__radio" />
+      <ul class="palette2__list">
+        <li class="design__color color1">Color A</li>
+        <li class="design__color color2">Color B</li>
+        <li class="design__color color3">Color C</li>
       </ul>
     </label>
 
-    <label class="display-block design__square-label">
-      <input type="radio" name="palette" class="design__square-radio" />
-      <ul class="palette-3">
-        <li class="design__square-color color-1">Color A</li>
-        <li class="design__square-color color-2">Color B</li>
-        <li class="design__square-color color-3">Color C</li>
+    <label for="palette3" class="design__label">
+      <input id="palette3" type="radio" name="palette" class="design__radio" />
+      <ul class="palette3__list">
+        <li class="design__color color1">Color A</li>
+        <li class="design__color color2">Color B</li>
+        <li class="design__color color3">Color C</li>
       </ul>
     </label>
+  </div>
 </fieldset>

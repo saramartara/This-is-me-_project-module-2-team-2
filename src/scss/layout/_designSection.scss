@@ -1,60 +1,68 @@
-.design__square {
-  &-label {
+.design {
+  padding-top: rem(22);
+  &__label {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-family: $fontText;
-    color: $colorTitle;
-    text-transform: up;
+    font-size: 1px;
   }
 
-  &-radio {
-    margin-right: rem(10);
+  &__radio {
+    margin: 0 rem(10) rem(15) 0;
   }
 
-  &-color {
+  &__color {
     display: inline-block;
     width: rem(30);
     height: rem(25);
     overflow: hidden;
     // ¿está declarando la variable aquí??
     color: rgba($color: white, $alpha: 0);
-    list-style: none;
   }
 }
+.colors {
+  height: rem(25);
+  padding-right: rem(82);
+  text-transform: uppercase;
+  font-family: $fontText;
+  font-size: rem(13);
+}
 
-.palette-1 {
-  .color-1 {
+.palette1__list {
+  margin-bottom: rem(15);
+  .color1 {
     background-color: $colorPalette1A;
   }
-  .color-2 {
+  .color2 {
     background-color: $colorPalette1B;
   }
-  .color-3 {
+  .color3 {
     background-color: $colorPalette1C;
   }
 }
 
-.palette-2 {
-  .color-1 {
+.palette2__list {
+  margin-bottom: rem(15);
+  .color1 {
     background-color: $colorPalette2A;
   }
-  .color-2 {
+  .color2 {
     background-color: $colorPalette2B;
   }
-  .color-3 {
+  .color3 {
     background-color: $colorPalette2C;
   }
 }
 
-.palette-3 {
-  .color-1 {
+.palette3__list {
+  margin-bottom: rem(15);
+  .color1 {
     background-color: $colorPalette3A;
   }
-  .color-2 {
+  .color2 {
     background-color: $colorPalette3B;
   }
-  .color-3 {
+  .color3 {
     background-color: $colorPalette3C;
   }
 }
