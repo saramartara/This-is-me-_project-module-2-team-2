@@ -6,6 +6,7 @@
 }
 .fill {
   margin-bottom: rem(30);
+  width: 100%;
 }
 .form {
   width: 100%;
@@ -19,6 +20,8 @@
     padding: rem(20) 0 rem(7) 0;
   }
   &__inputText {
+    width: 100%;
+    height: rem(30);
     font-family: $fontText;
     font-size: $sizeSmall;
     color: #c5c5c5;
