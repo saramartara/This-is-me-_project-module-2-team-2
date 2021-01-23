@@ -3,6 +3,7 @@
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
+  @content;
 }
 .fill {
   margin-bottom: rem(30);
@@ -16,7 +17,7 @@
     font-size: $sizeSmall;
     color: $colorMediaA;
     line-height: rem(20);
-    @include fontNormal();
+    @include fontNormal;
     padding: rem(20) 0 rem(7) 0;
   }
   &__inputText {
