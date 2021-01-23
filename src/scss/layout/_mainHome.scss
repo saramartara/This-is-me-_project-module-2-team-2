@@ -111,25 +111,18 @@
     margin-top: rem(38.6);
     margin-bottom: rem(30);
     @include tablet {
-    margin-top: rem(186);
-    margin-bottom: rem(59);
-  }
+      margin-top: rem(186);
+      margin-bottom: rem(59);
+    }
   }
 }
-.far {
-  color: $colorIcon;
-  font-size: rem(22.4);
-}
-.fas {
+.iconMain {
   color: $colorIcon;
   font-size: rem(22.4);
 }
 
 @include tablet {
-  .far {
-    font-size: rem(28);
-  }
-  .fas {
+  .iconMain {
     font-size: rem(28);
   }
 }
