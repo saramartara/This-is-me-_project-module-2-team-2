@@ -2,12 +2,13 @@
   height: auto;
   text-decoration: none;
   border: none;
+  border-bottom: rem(1) solid $colorSoft;
 
   &__header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding-top: rem(27);
+    padding-top: rem(10);
     cursor: pointer;
     &:hover {
       background-color: #eee;
