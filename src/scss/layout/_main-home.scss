@@ -1,7 +1,7 @@
 .main {
-  background-color: $color-grey-main;
+  background-color: $colorBgHome;
   width: 100%;
-  height: 458px;
+  height: rem(458);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -9,12 +9,12 @@
 }
 
 .main__logo {
-  margin: 95px 35px 35.4px 35px;
+  margin: rem(95) rem(35) rem(35.4) rem(35);
 }
 
 .main__logo--image {
-  width: 250px;
-  height: 63px;
+  width: rem(250);
+  height: rem(63);
 }
 
 .main__slogan {
@@ -24,9 +24,216 @@
   align-items: center;
 }
 .main__slogan--title {
-  color: $color-dull-orange;
+  color: $colorIcon;
+  font-family: $fontTitle;
+  font-size: rem(19.2);
 }
+
 .main__slogan--text {
-  width: 264.8px;
+  width: rem(264.8);
   text-align: center;
+  color: $colorMediaA;
+  font-size: rem(12.8);
+  font-family: $fontText;
 }
+
+.main__icons {
+  display: flex;
+  justify-content: center;
+  border: solid rem(1.6) rgba($color: $colorIcon, $alpha: 0.21);
+  border-radius: rem(4);
+  width: rem(268);
+  height: rem(73.8);
+  margin-top: rem(17.8);
+}
+.main__icons--tandem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: rem(60);
+  height: rem(48.8);
+  margin-top: rem(15);
+  margin-left: rem(12);
+  margin-right: rem(12);
+}
+.main__icons--sections {
+  font-family: $fontText;
+  color: $colorSections;
+  font-size: rem(12.8);
+}
+.far {
+  color: $colorIcon;
+  font-size: rem(22.4);
+}
+.fas {
+  color: $colorIcon;
+  font-size: rem(22.4);
+}
+.main__start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: rem(129);
+  height: rem(42);
+  border-radius: rem(21);
+  background-color: $colorMediaB;
+  color: $colorBg;
+  text-transform: uppercase;
+  font-family: $fontText;
+  font-weight: 600;
+  margin-top: rem(38.6);
+  margin-bottom: rem(30);
+}
+
+.footer {
+  height: rem(110);
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: solid rem(1) $colorBorFooter;
+}
+
+.footer__copy {
+  color: rgba($color: $colorSmall, $alpha: 0.5);
+  font-family: $fontText;
+  font-size: rem(14);
+  margin-top: rem(18);
+  line-height: rem(20);
+}
+.footer__logo--adalab {
+  width: rem(103);
+  height: rem(40);
+  margin-top: rem(12);
+  margin-bottom: rem(20);
+}
+
+@media all and (min-width: 768px) {
+  .main {
+    height: rem(963);
+  }
+
+  .main__logo {
+    margin: rem(350) rem(174) rem(31) rem(175);
+  }
+
+  .main__logo--image {
+    width: rem(419);
+    height: rem(105);
+  }
+  .main__slogan--title {
+    font-size: rem(24);
+  }
+  .main__slogan--text {
+    width: rem(331);
+    font-size: rem(16);
+  }
+  .main__icons {
+    border: solid rem(2) rgba($color: $colorIcon, $alpha: 0.21);
+    border-radius: rem(5);
+    width: rem(325);
+    height: rem(86);
+    margin-top: rem(27);
+  }
+  .main__icons--tandem {
+    width: rem(75);
+    height: rem(61);
+    margin-left: rem(15);
+    margin-right: rem(15);
+  }
+  .main__icons--sections {
+    font-size: rem(16);
+  }
+  .far {
+    font-size: rem(28);
+  }
+  .fas {
+    font-size: rem(28);
+  }
+  .main__start {
+    margin-top: rem(186);
+    margin-bottom: rem(59);
+  }
+  //FOOTER
+  .footer {
+    height: rem(60);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__copy {
+    margin: rem(18) rem(193) rem(22) rem(0);
+  }
+  .footer__logo--adalab {
+    margin: rem(10) rem(0) rem(10) rem(193);
+  }
+
+}
+/* //MAIN
+@media all and (min-width: 768px) {
+  .main {
+    height: rem(963);
+  }
+  .main__logo {
+    margin: rem(350) rem(174) rem(31) rem(175);
+  }
+  .main__logo--image {
+    width: rem(419);
+    height: rem(105);
+  }
+
+  .main__slogan--title {
+    font-size: rem(24);
+  }
+
+  .main__slogan--text {
+    width: rem(331);
+    font-size: rem(16);
+  }
+  .main__icons {
+    border: solid rem(2) rgba($color: $colorIcon, $alpha: 0.21);
+    border-radius: rem(5);
+    width: rem(325);
+    height: rem(86);
+    margin-top: rem(27);
+  }
+
+  .main__icons--tandem {
+    width: rem(75);
+    height: rem(61);
+    margin-left: rem(15);
+    margin-right: rem(15);
+  }
+  .main__icons--sections {
+    font-size: rem(16);
+  }
+  .far {
+    font-size: rem(28);
+  }
+  .fas {
+    font-size: rem(28);
+  }
+}
+.main__start {
+  margin-top: rem(186);
+  margin-bottom: rem(59);
+}
+
+//FOOTER
+
+  .footer {
+    height: rem(60);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__copy {
+    margin: rem(18) rem(193) rem(22) rem(0);
+  }
+
+  .footer__logo--adalab {
+    margin: rem(10) rem(0) rem(10) rem(193);
+  
+} */
