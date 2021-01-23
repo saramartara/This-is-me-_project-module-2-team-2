@@ -8,12 +8,22 @@
   justify-content: flex-end; /*lo hemos cambiado, antes flex-start*/
   align-items: center;
 
+  @mixin tablet {
+    height: rem(963);
+  }
+
   &__logo {
     margin: rem(0) rem(35) rem(35.4) rem(35);
-
+    @mixin tablet {
+      margin: rem(350) rem(174) rem(31) rem(175);
+    }
     &--image {
       width: rem(250);
       height: rem(63);
+      @mixin tablet {
+        width: rem(419);
+        height: rem(105);
+      }
     }
   }
   &__slogan {
@@ -26,6 +36,9 @@
       color: $colorIcon;
       font-family: $fontTitle;
       font-size: rem(19);
+      @mixin tablet {
+        font-size: rem(24);
+      }
     }
 
     &--text {
@@ -34,6 +47,10 @@
       color: $colorMediaA;
       font-size: rem(13);
       font-family: $fontText;
+      @mixin tablet {
+        width: rem(331);
+        font-size: rem(16);
+      }
     }
   }
   &__icons {
@@ -44,6 +61,13 @@
     width: rem(268);
     height: rem(73.8);
     margin-top: rem(17.8);
+    @mixin tablet {
+      border: solid rem(2) rgba($color: $colorIcon, $alpha: 0.21);
+      border-radius: rem(5);
+      width: rem(325);
+      height: rem(86);
+      margin-top: rem(27);
+    }
 
     &--tandem {
       display: flex;
@@ -55,11 +79,20 @@
       margin-top: rem(15);
       margin-left: rem(12);
       margin-right: rem(12);
+      @mixin tablet {
+        width: rem(75);
+        height: rem(61);
+        margin-left: rem(15);
+        margin-right: rem(15);
+      }
     }
     &--sections {
       font-family: $fontText;
       color: $colorSections;
       font-size: rem(13);
+      @mixin tablet {
+        font-size: rem(16);
+      }
     }
   }
 
@@ -77,6 +110,10 @@
     font-weight: 600;
     margin-top: rem(38.6);
     margin-bottom: rem(30);
+    @mixin tablet {
+    margin-top: rem(186);
+    margin-bottom: rem(59);
+  }
   }
 }
 .far {
@@ -88,50 +125,11 @@
   font-size: rem(22.4);
 }
 
-@media all and (min-width: 768px) {
-  .main {
-    height: rem(963);
-  }
-
-  .main__logo {
-    margin: rem(350) rem(174) rem(31) rem(175);
-  }
-
-  .main__logo--image {
-    width: rem(419);
-    height: rem(105);
-  }
-  .main__slogan--title {
-    font-size: rem(24);
-  }
-  .main__slogan--text {
-    width: rem(331);
-    font-size: rem(16);
-  }
-  .main__icons {
-    border: solid rem(2) rgba($color: $colorIcon, $alpha: 0.21);
-    border-radius: rem(5);
-    width: rem(325);
-    height: rem(86);
-    margin-top: rem(27);
-  }
-  .main__icons--tandem {
-    width: rem(75);
-    height: rem(61);
-    margin-left: rem(15);
-    margin-right: rem(15);
-  }
-  .main__icons--sections {
-    font-size: rem(16);
-  }
+@mixin tablet {
   .far {
     font-size: rem(28);
   }
   .fas {
     font-size: rem(28);
-  }
-  .main__start {
-    margin-top: rem(186);
-    margin-bottom: rem(59);
   }
 }
