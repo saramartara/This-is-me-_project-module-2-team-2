@@ -1,10 +1,11 @@
 .main {
   background-color: $colorBgHome;
   width: 100%;
+  /* height: calc(100vh-110px); */
   /*   height: rem(458); */
-  /*  height: 80vh; */ /*añadido*/
+   height: 80vh; /*añadido*/
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   justify-content: flex-end; /*lo hemos cambiado, antes flex-start*/
   align-items: center;
 
