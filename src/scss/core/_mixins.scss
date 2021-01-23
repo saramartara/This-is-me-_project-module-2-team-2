@@ -9,3 +9,11 @@
     @content;
   }
 }
+
+@mixin fontNormal {
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  @content;
+}
