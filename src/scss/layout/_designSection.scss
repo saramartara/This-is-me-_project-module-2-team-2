@@ -16,13 +16,13 @@
     width: rem(30);
     height: rem(25);
     overflow: hidden;
-    // ¿está declarando la variable aquí??
+
     color: rgba($color: white, $alpha: 0);
   }
 }
 .colors {
   height: rem(25);
-  padding-right: rem(82);
+  padding-right: rem(120);
   text-transform: uppercase;
   font-family: $fontText;
   font-size: rem(13);
