@@ -19,7 +19,7 @@
     font-weight: 600;
     text-transform: uppercase;
     font-family: $fontText;
-    color: $colorTitle;
+    color: $colorSections;
   }
 
   .fa-object-ungroup,
@@ -31,7 +31,7 @@
   }
   .fa-angle-down {
     font-size: $sizeTitle;
-    color: $colorTitle;
+    color: $colorSections;
     padding-top: rem(3);
   }
 }
