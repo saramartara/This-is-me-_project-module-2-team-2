@@ -3,14 +3,15 @@
   width: 100%;
   /* height: calc(100vh-110px); */
   /*   height: rem(458); */
-   height: 80vh; /*añadido*/
+  height: 80vh; /*añadido*/
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: flex-end; /*lo hemos cambiado, antes flex-start*/
   align-items: center;
 
   @include tablet {
-    height: rem(963);
+    // height: rem(963);
+    height: 94vh; /*añadido*/
   }
 
   &__logo {
@@ -112,25 +113,18 @@
     margin-top: rem(38.6);
     margin-bottom: rem(30);
     @include tablet {
-    margin-top: rem(186);
-    margin-bottom: rem(59);
-  }
+      margin-top: rem(186);
+      margin-bottom: rem(59);
+    }
   }
 }
-.far {
-  color: $colorIcon;
-  font-size: rem(22.4);
-}
-.fas {
+.iconMain {
   color: $colorIcon;
   font-size: rem(22.4);
 }
 
 @include tablet {
-  .far {
-    font-size: rem(28);
-  }
-  .fas {
+  .iconMain {
     font-size: rem(28);
   }
 }
