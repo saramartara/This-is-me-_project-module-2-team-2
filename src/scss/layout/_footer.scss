@@ -1,13 +1,13 @@
 .footer {
-    /* height: rem(110); */
-    height: 20vh; /* añadido*/
-    background-color: $colorBg;
+    height: rem(110);
+    /* height: 20vh;  *//* añadido*/
+    background-color: pink;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     border-top: solid rem(1) $colorBorFooter;
-    @mixin tablet {
+    @include tablet {
       height: rem(60);
       flex-direction: row;
       justify-content: center;
@@ -19,7 +19,7 @@
     font-size: rem(14);
     margin-top: rem(18);
     line-height: rem(20);
-    @mixin tablet {
+    @include tablet {
       margin: rem(18) rem(193) rem(22) rem(0);
     }
   }
@@ -28,7 +28,7 @@
     height: rem(40);
     margin-top: rem(12);
     margin-bottom: rem(20);
-    @mixin tablet {
+    @include tablet {
       margin: rem(10) rem(0) rem(10) rem(193);
     }
   }

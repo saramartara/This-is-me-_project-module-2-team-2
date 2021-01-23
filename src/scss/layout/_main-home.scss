@@ -2,25 +2,25 @@
   background-color: $colorBgHome;
   width: 100%;
   /*   height: rem(458); */
-  height: 80vh; /*añadido*/
+  /*  height: 80vh; */ /*añadido*/
   display: flex;
   flex-direction: column;
   justify-content: flex-end; /*lo hemos cambiado, antes flex-start*/
   align-items: center;
 
-  @mixin tablet {
+  @include tablet {
     height: rem(963);
   }
 
   &__logo {
-    margin: rem(0) rem(35) rem(35.4) rem(35);
-    @mixin tablet {
+    margin: rem(95) rem(35) rem(35.4) rem(35);
+    @include tablet {
       margin: rem(350) rem(174) rem(31) rem(175);
     }
     &--image {
       width: rem(250);
       height: rem(63);
-      @mixin tablet {
+      @include tablet {
         width: rem(419);
         height: rem(105);
       }
@@ -36,7 +36,7 @@
       color: $colorIcon;
       font-family: $fontTitle;
       font-size: rem(19);
-      @mixin tablet {
+      @include tablet {
         font-size: rem(24);
       }
     }
@@ -47,7 +47,7 @@
       color: $colorMediaA;
       font-size: rem(13);
       font-family: $fontText;
-      @mixin tablet {
+      @include tablet {
         width: rem(331);
         font-size: rem(16);
       }
@@ -61,7 +61,7 @@
     width: rem(268);
     height: rem(73.8);
     margin-top: rem(17.8);
-    @mixin tablet {
+    @include tablet {
       border: solid rem(2) rgba($color: $colorIcon, $alpha: 0.21);
       border-radius: rem(5);
       width: rem(325);
@@ -79,7 +79,7 @@
       margin-top: rem(15);
       margin-left: rem(12);
       margin-right: rem(12);
-      @mixin tablet {
+      @include tablet {
         width: rem(75);
         height: rem(61);
         margin-left: rem(15);
@@ -90,7 +90,7 @@
       font-family: $fontText;
       color: $colorSections;
       font-size: rem(13);
-      @mixin tablet {
+      @include tablet {
         font-size: rem(16);
       }
     }
@@ -110,7 +110,7 @@
     font-weight: 600;
     margin-top: rem(38.6);
     margin-bottom: rem(30);
-    @mixin tablet {
+    @include tablet {
     margin-top: rem(186);
     margin-bottom: rem(59);
   }
@@ -125,7 +125,7 @@
   font-size: rem(22.4);
 }
 
-@mixin tablet {
+@include tablet {
   .far {
     font-size: rem(28);
   }
