@@ -1,10 +1,14 @@
 .form {
-  width: rem(320);
-}
-.wrapper {
-  width: rem(320);
-  padding: 0 rem(20);
+  width: 100%;
   @include tablet {
-    max-width: 399;
+    max-width: rem(399);
+  }
+
+  &__wrapper {
+    width: rem(320);
+    margin: auto;
+    @include tablet {
+      margin-left: rem(40);
+    }
   }
 }
