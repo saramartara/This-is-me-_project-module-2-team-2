@@ -1,15 +1,16 @@
 .main {
   background-color: $colorBgHome;
   width: 100%;
-  height: rem(458);
+/*   height: rem(458); */
+  height: 80vh; /*añadido*/
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-end; /*lo hemos cambiado, antes flex-start*/
   align-items: center;
 }
 
 .main__logo {
-  margin: rem(95) rem(35) rem(35.4) rem(35);
+  margin: rem(0) rem(35) rem(35.4) rem(35);
 }
 
 .main__logo--image {
@@ -26,14 +27,14 @@
 .main__slogan--title {
   color: $colorIcon;
   font-family: $fontTitle;
-  font-size: rem(19.2);
+  font-size: rem(19);
 }
 
 .main__slogan--text {
   width: rem(264.8);
   text-align: center;
   color: $colorMediaA;
-  font-size: rem(12.8);
+  font-size: rem(13);
   font-family: $fontText;
 }
 
@@ -60,7 +61,7 @@
 .main__icons--sections {
   font-family: $fontText;
   color: $colorSections;
-  font-size: rem(12.8);
+  font-size: rem(13);
 }
 .far {
   color: $colorIcon;
@@ -87,8 +88,9 @@
 }
 
 .footer {
-  height: rem(110);
-  background-color: pink;
+  /* height: rem(110); */
+  height: 20vh; /* añadido*/
+  background-color: $colorBg;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -171,69 +173,3 @@
   }
 
 }
-/* //MAIN
-@media all and (min-width: 768px) {
-  .main {
-    height: rem(963);
-  }
-  .main__logo {
-    margin: rem(350) rem(174) rem(31) rem(175);
-  }
-  .main__logo--image {
-    width: rem(419);
-    height: rem(105);
-  }
-
-  .main__slogan--title {
-    font-size: rem(24);
-  }
-
-  .main__slogan--text {
-    width: rem(331);
-    font-size: rem(16);
-  }
-  .main__icons {
-    border: solid rem(2) rgba($color: $colorIcon, $alpha: 0.21);
-    border-radius: rem(5);
-    width: rem(325);
-    height: rem(86);
-    margin-top: rem(27);
-  }
-
-  .main__icons--tandem {
-    width: rem(75);
-    height: rem(61);
-    margin-left: rem(15);
-    margin-right: rem(15);
-  }
-  .main__icons--sections {
-    font-size: rem(16);
-  }
-  .far {
-    font-size: rem(28);
-  }
-  .fas {
-    font-size: rem(28);
-  }
-}
-.main__start {
-  margin-top: rem(186);
-  margin-bottom: rem(59);
-}
-
-//FOOTER
-
-  .footer {
-    height: rem(60);
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .footer__copy {
-    margin: rem(18) rem(193) rem(22) rem(0);
-  }
-
-  .footer__logo--adalab {
-    margin: rem(10) rem(0) rem(10) rem(193);
-  
-} */
