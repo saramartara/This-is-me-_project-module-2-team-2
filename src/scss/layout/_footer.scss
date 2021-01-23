@@ -1,0 +1,39 @@
+.footer {
+    /* height: rem(110); */
+    height: 20vh; /* añadido*/
+    background-color: $colorBg;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: solid rem(1) $colorBorFooter;
+ 
+  &__copy {
+    color: rgba($color: $colorSmall, $alpha: 0.5);
+    font-family: $fontText;
+    font-size: rem(14);
+    margin-top: rem(18);
+    line-height: rem(20);
+  }
+  &__logo--adalab {
+    width: rem(103);
+    height: rem(40);
+    margin-top: rem(12);
+    margin-bottom: rem(20);
+  }
+}
+  @media all and (min-width: 768px) {
+    .footer {
+      height: rem(60);
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .footer__copy {
+      margin: rem(18) rem(193) rem(22) rem(0);
+    }
+    .footer__logo--adalab {
+      margin: rem(10) rem(0) rem(10) rem(193);
+    }
+  
+  }

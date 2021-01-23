@@ -1,67 +1,83 @@
 .main {
   background-color: $colorBgHome;
   width: 100%;
-/*   height: rem(458); */
+  /*   height: rem(458); */
   height: 80vh; /*añadido*/
   display: flex;
   flex-direction: column;
   justify-content: flex-end; /*lo hemos cambiado, antes flex-start*/
   align-items: center;
-}
 
-.main__logo {
-  margin: rem(0) rem(35) rem(35.4) rem(35);
-}
+  &__logo {
+    margin: rem(0) rem(35) rem(35.4) rem(35);
 
-.main__logo--image {
-  width: rem(250);
-  height: rem(63);
-}
+    &--image {
+      width: rem(250);
+      height: rem(63);
+    }
+  }
+  &__slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-.main__slogan {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.main__slogan--title {
-  color: $colorIcon;
-  font-family: $fontTitle;
-  font-size: rem(19);
-}
+    &--title {
+      color: $colorIcon;
+      font-family: $fontTitle;
+      font-size: rem(19);
+    }
 
-.main__slogan--text {
-  width: rem(264.8);
-  text-align: center;
-  color: $colorMediaA;
-  font-size: rem(13);
-  font-family: $fontText;
-}
+    &--text {
+      width: rem(264.8);
+      text-align: center;
+      color: $colorMediaA;
+      font-size: rem(13);
+      font-family: $fontText;
+    }
+  }
+  &__icons {
+    display: flex;
+    justify-content: center;
+    border: solid rem(1.6) rgba($color: $colorIcon, $alpha: 0.21);
+    border-radius: rem(4);
+    width: rem(268);
+    height: rem(73.8);
+    margin-top: rem(17.8);
 
-.main__icons {
-  display: flex;
-  justify-content: center;
-  border: solid rem(1.6) rgba($color: $colorIcon, $alpha: 0.21);
-  border-radius: rem(4);
-  width: rem(268);
-  height: rem(73.8);
-  margin-top: rem(17.8);
-}
-.main__icons--tandem {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: rem(60);
-  height: rem(48.8);
-  margin-top: rem(15);
-  margin-left: rem(12);
-  margin-right: rem(12);
-}
-.main__icons--sections {
-  font-family: $fontText;
-  color: $colorSections;
-  font-size: rem(13);
+    &--tandem {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      width: rem(60);
+      height: rem(48.8);
+      margin-top: rem(15);
+      margin-left: rem(12);
+      margin-right: rem(12);
+    }
+    &--sections {
+      font-family: $fontText;
+      color: $colorSections;
+      font-size: rem(13);
+    }
+  }
+
+  &__start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: rem(129);
+    height: rem(42);
+    border-radius: rem(21);
+    background-color: $colorMediaB;
+    color: $colorBg;
+    text-transform: uppercase;
+    font-family: $fontText;
+    font-weight: 600;
+    margin-top: rem(38.6);
+    margin-bottom: rem(30);
+  }
 }
 .far {
   color: $colorIcon;
@@ -70,46 +86,6 @@
 .fas {
   color: $colorIcon;
   font-size: rem(22.4);
-}
-.main__start {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: rem(129);
-  height: rem(42);
-  border-radius: rem(21);
-  background-color: $colorMediaB;
-  color: $colorBg;
-  text-transform: uppercase;
-  font-family: $fontText;
-  font-weight: 600;
-  margin-top: rem(38.6);
-  margin-bottom: rem(30);
-}
-
-.footer {
-  /* height: rem(110); */
-  height: 20vh; /* añadido*/
-  background-color: $colorBg;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  border-top: solid rem(1) $colorBorFooter;
-}
-
-.footer__copy {
-  color: rgba($color: $colorSmall, $alpha: 0.5);
-  font-family: $fontText;
-  font-size: rem(14);
-  margin-top: rem(18);
-  line-height: rem(20);
-}
-.footer__logo--adalab {
-  width: rem(103);
-  height: rem(40);
-  margin-top: rem(12);
-  margin-bottom: rem(20);
 }
 
 @media all and (min-width: 768px) {
@@ -158,18 +134,4 @@
     margin-top: rem(186);
     margin-bottom: rem(59);
   }
-  //FOOTER
-  .footer {
-    height: rem(60);
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .footer__copy {
-    margin: rem(18) rem(193) rem(22) rem(0);
-  }
-  .footer__logo--adalab {
-    margin: rem(10) rem(0) rem(10) rem(193);
-  }
-
 }
