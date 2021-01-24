@@ -10,8 +10,18 @@
     justify-content: space-between;
     padding-top: rem(10);
     cursor: pointer;
-    &:hover {
+    /*  &:hover {
       background-color: #eee;
+    } */
+    &--icon {
+      padding-top: rem(3);
+      color: $colorIcon;
+      font-size: $sizeTitle;
+    }
+    &--arrow {
+      font-size: $sizeTitle;
+      color: $colorSections;
+      padding-top: rem(3);
     }
   }
   &__title {
@@ -21,18 +31,5 @@
     text-transform: uppercase;
     font-family: $fontText;
     color: $colorSections;
-  }
-
-  .fa-object-ungroup,
-  .fa-keyboard-o,
-  .fa-share-alt {
-    padding-top: rem(3);
-    color: $colorIcon;
-    font-size: $sizeTitle;
-  }
-  .fa-angle-down {
-    font-size: $sizeTitle;
-    color: $colorSections;
-    padding-top: rem(3);
   }
 }
