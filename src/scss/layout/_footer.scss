@@ -1,11 +1,9 @@
 .footer {
-  background-color: pink;
   width: 100%;
-  height: rem(110);
   border-top: solid rem(1) $colorBorFooter;
-  @include tablet {
+  /*  @include tablet {
     height: rem(60);
-  }
+  } */
   &__wrapper {
     display: flex;
     flex-direction: column;
@@ -15,7 +13,7 @@
       justify-content: space-between;
       max-width: rem(1100);
       padding: 0 rem(40);
-      margin: auto;
+      margin: 0 auto;
     }
     &--copy {
       color: rgba($color: $colorSmall, $alpha: 0.5);
@@ -24,7 +22,7 @@
       margin-top: rem(18);
       line-height: rem(20);
       @include tablet {
-        margin: rem(18) rem(193) rem(22) rem(0);
+        margin-top: 0;
       }
     }
     &--adalab {
