@@ -1,16 +1,11 @@
 .main {
   background-color: $colorBgHome;
   width: 100%;
-  /*   height: rem(458); */
-  /*  height: 80vh; */ /*añadido*/
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; /*lo hemos cambiado, antes flex-start*/
   align-items: center;
-
-  @include tablet {
-    height: rem(963);
-  }
+  justify-content: flex-end;
 
   &__logo {
     margin: rem(95) rem(35) rem(35.4) rem(35);
