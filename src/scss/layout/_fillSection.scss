@@ -31,9 +31,10 @@
   &__btn {
     width: rem(140);
     height: rem(30);
+    border: none;
     background-color: $colorIcon;
     border-radius: rem(3);
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
+    box-shadow: 0 0 rem(4) 0 rgba(0, 0, 0, 0.32);
     font-family: $fontText;
     font-size: $sizeSmall;
     color: $colorBg;
