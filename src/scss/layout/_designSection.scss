@@ -16,7 +16,6 @@
     width: rem(30);
     height: rem(25);
     overflow: hidden;
-
     color: rgba($color: white, $alpha: 0);
   }
 }
@@ -24,8 +23,9 @@
   height: rem(25);
   padding-right: rem(120);
   text-transform: uppercase;
-  font-family: $fontText;
-  font-size: rem(13);
+  font-family: $sizeSmall;
+  font-size: rem(14);
+  color: $colorSections;
 }
 
 .palette1__list {
