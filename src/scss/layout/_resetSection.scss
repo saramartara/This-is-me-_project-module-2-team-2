@@ -28,6 +28,7 @@
       font-family: $fontText;
       color: $colorSections;
       font-size: rem(12);
+
       text-transform: uppercase;
       @include tablet {
         margin-top: rem(135);
