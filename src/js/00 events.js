@@ -11,12 +11,21 @@ function handleEmail(ev) {
   const emailValue = ev.target.value;
   // ver si está vacio o lleno para saber lo que se tiene que ver
 
+  /* ESTO SERÍA PARA EL FINAL DEL MODULO, SI NOS INTERESA AÑADIRLO: INVESTIGAR FUNCION DE JAVASCRIPT "TEST"
+  
+  const isValidEmail = emailValue.test()
+
+  if (!isValidEmail) {
+    console.log("estoy vacio");
+    emailPreviewElement.href = ""; 
+  } else*/
+
   if (emailValue === "") {
     console.log("estoy vacio");
-    emailPreviewElement.href = "sally-hill@gmail.com"; // comprobar si href funciona
+    emailPreviewElement.href = ""; // las comillas de href deben estar vacias para que la usuaria no envie por error a sally un mensaje
   } else {
     console.log("estoy relleno");
-    emailPreviewElement.href = "emailValue"; // comprobar si href funciona
+    emailPreviewElement.href = "mailto:" + emailValue; // nos faltaba añadir "mailto:"
   }
 }
 // escuchar el evento y ejecuta la funcion  handleEmail
