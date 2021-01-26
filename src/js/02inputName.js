@@ -1,4 +1,4 @@
-"user strict";
+'user strict';
 
 const nameElement = document.querySelector (".js-name");
 const namePreviewElement = document.querySelector (".js-preview-name");
