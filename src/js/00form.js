@@ -90,12 +90,16 @@ function handlelinkedin(ev) {
 
   /* ESTO SERÍA PARA EL FINAL DEL MODULO, BONUS, ELIMINAR EL HTTPS QUE COPIA/PEGA LA USUARIA*/
 
+<<<<<<< HEAD
   if (linkedinValue === '') {
+=======
+if (linkedinValue === '') {
+>>>>>>> 7e88b4e60a7a61a625fdd536772aa8dfef3a5caa
     console.log('estoy vacio');
     linkedinPreviewElement.href = ''; // las comillas de href deben estar vacias para que la usuaria no coloque el enlace de sally en su card
   } else {
     console.log('estoy relleno');
-    linkedinPreviewElement.href = 'mailto:' + linkedinValue; // nos faltaba añadir "mailto:"
+    linkedinPreviewElement.href = linkedinValue; // nos faltaba añadir "mailto:"
   }
 }
 // escuchar el evento y ejecuta la funcion  handleEmail
