@@ -1,5 +1,9 @@
 'use strict';
 
-//addEventListener:cuando la usuaria haga click en la flecha se despliegue el collapsable y se gire la flecha TOGGLE
+//la clase .js-slide se aplica al contenedor padre en la sección design.html <fliesdset>
 
-//queremos que se escuche el click
+const collapsable = document.querySelector('.js-slide');
+function show() {
+  collapsable.classList.toggle('collapsable--close');
+}
+collapsable.addEventListener('click', show);
