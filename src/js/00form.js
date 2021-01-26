@@ -14,9 +14,39 @@ function handleName(event) {
 
 nameElement.addEventListener('keyup', handleName);
 
-//PUESTO
+//PUESTO 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //IMAGEN DE PERFIL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //EMAIL
 //llamamos a los elementos del html del input archivo fill html dato de entrada
@@ -52,5 +82,28 @@ emailElement.addEventListener('keyup', handleEmail);
 //TELEFONO
 
 //LINKEDIN
+//llamamos a los elementos del html del input archivo fill html dato de entrada
+const linkedinElement = document.querySelector('.js-linkedin');
+// esta clase está en el archivo navArticle para el dato de salida
+const linkedinPreviewElement = document.querySelector('.js-preview-linkedin');
+// declaramos la funcion
+function handlelinkedin(ev) {
+  // llamamos al contenido dentro del input
+  const linkedinValue = ev.target.value;
+// ver si está vacio o lleno para saber lo que se tiene que ver
 
-//GITHUB
+ /* ESTO SERÍA PARA EL FINAL DEL MODULO, BONUS, ELIMINAR EL HTTPS QUE COPIA/PEGA LA USUARIA*/
+
+if (linkedinlValue === '') {
+    console.log('estoy vacio');
+    linkedinPreviewElement.href = ''; // las comillas de href deben estar vacias para que la usuaria no coloque el enlace de sally en su card
+  } else {
+    console.log('estoy relleno');
+    linkedinPreviewElement.href = 'mailto:' + linkedinValue; // nos faltaba añadir "mailto:"
+  }
+}
+// escuchar el evento y ejecuta la funcion  handleEmail
+linkedinElement.addEventListener('keyup', handlelinkedin);
+
+
+    //GITHUB
