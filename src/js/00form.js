@@ -102,3 +102,28 @@ function handlelinkedin(ev) {
 linkedinElement.addEventListener('keyup', handlelinkedin);
 
 //GITHUB
+
+// input data que rellena usaria en formulario fill.html
+const githubElement = document.querySelector('.js-github');
+
+// output data: previsualización icono gitHub navegador en navArticle.html
+const githubPreviewElement = document.querySelector('.js-preview-github');
+
+// función handleGithub: si el input está vacío, muestra href vacío
+// sino = está relleno = enlaza el valor escrito en el preview
+
+function handleGithub(ev) {
+  const githubValue = ev.target.value;
+
+  if (githubValue === '') {
+    console.log('estoy vacio');
+    githubPreviewElement.href = '';
+  } else {
+    console.log('estoy relleno');
+    githubPreviewElement.href = githubValue;
+  }
+}
+//cuando la usuaria rellene el campo de GitHub
+// --> que se ejecute la función handleGitHub
+
+githubElement.addEventListener('keyup', handleGithub);
