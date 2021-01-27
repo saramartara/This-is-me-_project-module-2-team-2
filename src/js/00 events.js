@@ -14,7 +14,6 @@ function handleEmail(ev) {
   // ver si está vacio o lleno para saber lo que se tiene que ver
 
   /* ESTO SERÍA PARA EL FINAL DEL MODULO, SI NOS INTERESA AÑADIRLO: INVESTIGAR FUNCION DE JAVASCRIPT "TEST"
-  
   const isValidEmail = emailValue.test()
 
   if (!isValidEmail) {
