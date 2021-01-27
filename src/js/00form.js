@@ -1,7 +1,7 @@
 'use strict';
 //NOMBRE
 const nameElement = document.querySelector('.js-name');
-const namePreviewElement = document.querySelector('.js-preview-name');
+const namePreviewElement = document.querySelector('.js-namePreview');
 
 function handleName(event) {
   const nameValue = event.target.value;
@@ -36,7 +36,7 @@ positionElement.addEventListener('keyup', handlePosition);
 //llamamos a los elementos del html del input archivo fill html dato de entrada
 const emailElement = document.querySelector('.js-email');
 // esta clase está en el archivo navArticle para el dato de salida
-const emailPreviewElement = document.querySelector('.js-preview-email');
+const emailPreviewElement = document.querySelector('.js-emailPreview');
 // declaramos la funcion
 function handleEmail(ev) {
   // llamamos al contenido dentro del input
@@ -80,7 +80,7 @@ phoneElement.addEventListener('keyup', handlePhone);
 //llamamos a los elementos del html del input archivo fill html dato de entrada
 const linkedinElement = document.querySelector('.js-linkedin');
 // esta clase está en el archivo navArticle para el dato de salida
-const linkedinPreviewElement = document.querySelector('.js-preview-linkedin');
+const linkedinPreviewElement = document.querySelector('.js-linkedinPreview');
 // declaramos la funcion
 function handlelinkedin(ev) {
   // llamamos al contenido dentro del input
@@ -106,7 +106,7 @@ linkedinElement.addEventListener('keyup', handlelinkedin);
 const githubElement = document.querySelector('.js-github');
 
 // output data: previsualización icono gitHub navegador en navArticle.html
-const githubPreviewElement = document.querySelector('.js-preview-github');
+const githubPreviewElement = document.querySelector('.js-githubPreview');
 
 // función handleGithub: si el input está vacío, muestra href vacío
 // sino = está relleno = enlaza el valor escrito en el preview
