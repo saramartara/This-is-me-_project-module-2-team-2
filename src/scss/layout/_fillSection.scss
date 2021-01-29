@@ -8,7 +8,7 @@
     display: block;
     font-family: $fontText;
     font-size: $sizeSmall;
-    color: $colorMediaA;
+    color: $colorMediaA$colorComplementaryA;
     line-height: rem(20);
     @include fontNormal;
     padding: rem(20) 0 rem(7) 0;
