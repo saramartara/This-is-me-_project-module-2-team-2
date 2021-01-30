@@ -1,22 +1,12 @@
 <!-- Formulario: Rellena -->
-<fieldset class="collapsable">
-  <include
-    src="./headerForm.html"
-    icon="fa fa-keyboard-o"
-    title="Rellena"
-  ></include>
+<fieldset class="collapsable js-slide">
+  <include src="./headerForm.html" icon="fa fa-keyboard-o" title="Rellena"></include>
 
-  <div class="fill">
+  <div class="fill collapsable__content js-content">
     <label for="name" class="form__label">Nombre completo</label>
 
-    <input
-      name="full_name"
-      value=""
-      type="text"
-      id="name"
-      class="form__inputText js-name"
-      placeholder="Ej: Sally Jill"
-    />
+    <input name="full_name" value="" type="text" id="name" class="form__inputText js-name"
+      placeholder="Ej: Sally Jill" />
 
     <label for="job" class="form__label">Puesto</label>
     <input name="job" value="" type="text" id="job" class="form__inputText js-position"
@@ -30,14 +20,8 @@
     </div>
 
     <label for="email" class="form__label">Email</label>
-    <input
-      name="email"
-      value=""
-      id="email"
-      type="email"
-      class="js-email form__inputText"
-      placeholder="Ej: sally-hill@gmail.com "
-    />
+    <input name="email" value="" id="email" type="email" class="js-email form__inputText"
+      placeholder="Ej: sally-hill@gmail.com " />
 
     <label for="phone" class="form__label">Teléfono</label>
     <input name="phone" value="" id="phone" type="tel" class="form__inputText js-phone" placeholder="Ej: 555666888" />
@@ -47,13 +31,7 @@
       placeholder="Ej: linkekin.com/in/sally..sally-hill" />
 
     <label for="github" class="form__label">Github</label>
-    <input
-      name="github"
-      value=""
-      id="github"
-      type="text"
-      class="form__inputText js-github"
-      placeholder="Ej: @sally-hill"
-    />
+    <input name="github" value="" id="github" type="text" class="form__inputText js-github"
+      placeholder="Ej: @sally-hill" />
   </div>
 </fieldset>

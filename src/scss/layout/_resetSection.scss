@@ -40,11 +40,9 @@
   padding-right: rem(5);
 }
 .sample {
-  width: rem(240);
+  max-width: rem(240);
   margin: auto;
   background-color: $colorBg;
-  overflow-x: visible;
-
   &__bar {
     width: rem(5);
     height: rem(42);
