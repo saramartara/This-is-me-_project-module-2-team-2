@@ -41,9 +41,9 @@
 }
 .sample {
   width: rem(240);
-  height: rem(329);
   margin: auto;
   background-color: $colorBg;
+  overflow-x: visible;
 
   &__bar {
     width: rem(5);
