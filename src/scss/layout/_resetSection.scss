@@ -1,9 +1,9 @@
 .resetSection {
-  background-image: linear-gradient(to bottom, #bfcdd0, #dde9ed);
   width: 100%;
+  background-image: linear-gradient(to bottom, #bfcdd0, #dde9ed);
   @include tablet {
-    margin: rem(20) rem(40) rem(20) rem(20);
-    padding-bottom: rem(260);
+    margin: rem(20) rem(40);
+    /*  padding-bottom: rem(260); */
     border-radius: rem(5);
   }
 
@@ -28,11 +28,7 @@
       font-family: $fontText;
       color: $colorSections;
       font-size: rem(12);
-
       text-transform: uppercase;
-      @include tablet {
-        margin-top: rem(135);
-      }
     }
   }
 }

@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: rem(10);
 }
 .share {
   padding: rem(30) 0;
@@ -39,7 +40,7 @@
 }
 .created {
   height: rem(123);
-  padding: rem(20) 0 0 0;
+  padding-top: rem(20);
   border-top: rem(1) solid $colorBorFooter;
   display: flex;
   flex-direction: column;

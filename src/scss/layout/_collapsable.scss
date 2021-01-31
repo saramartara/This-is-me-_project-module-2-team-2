@@ -2,6 +2,7 @@
   height: auto;
   text-decoration: none;
   border: none;
+  padding-bottom: rem(10);
   border-bottom: rem(1) solid $colorBorFooter;
 
   &__header {
@@ -10,9 +11,6 @@
     justify-content: space-between;
     padding-top: rem(10);
     cursor: pointer;
-    /*  &:hover {
-      background-color: #eee;
-    } */
     &--icon {
       padding-top: rem(3);
       color: $colorIcon;
@@ -36,11 +34,26 @@
 
 // hace que la flecha rote y oculte la seccion collapsable__content de Diseña. Cuando el collapsable tenga clase close, su hijo rote 180 grados y oculte el contenido. Por eso se aplica a el padre.
 
-.collapsable.collapsable--close {
+/* .collapsable.collapsable--close {
   .collapsable__icon--right {
     transform: rotate(180deg);
   }
   .collapsable__content {
     display: none;
+  }
+} */
+.collapsable {
+  &__hide {
+    display: none;
+  }
+}
+.collapsable.collapsable--open {
+  .collapsable {
+    &__hide {
+      display: block;
+    }
+    &__turn {
+      transform: rotate(180deg);
+    }
   }
 }
