@@ -31,6 +31,8 @@ function handlePosition(event) {
 
 positionElement.addEventListener('keyup', handlePosition);
 
+// Nueva función para reaprovechar código
+
 //IMAGEN DE PERFIL
 
 //EMAIL
