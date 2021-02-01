@@ -1,31 +1,38 @@
-.mainContainer {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
+// .mainContainer {
+//   width: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   height: 100vh;
+// }
 
 .main {
-  background-color: $colorBgHome;
-  width: 100%;
+  width: 100vw;
+  height: calc(100vh - 120px);
   display: flex;
   flex-grow: 1;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  background-color: $colorBgHome;
+  @include tablet {
+    height: calc(100vh - 60px);
+  }
 
   &__logo {
-    margin: 0 rem(35) rem(35.4) rem(35);
     width: rem(250);
+    height: rem(63);
+    margin-bottom: rem(35);
+
     @include tablet {
-      margin: rem(350) rem(174) rem(31) rem(175);
       width: rem(419);
+      height: rem(105);
+      margin-bottom: rem(31);
     }
     &--image {
       width: 100%;
-      @include tablet {
-        width: 100%;
-      }
+      // @include tablet {
+      //   width: 100%;
+      // }
     }
   }
   &__slogan {
@@ -33,6 +40,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: rem(18);
+    @include tablet {
+      margin-bottom: rem(27);
+    }
 
     &--title {
       color: $colorIcon;
@@ -57,35 +68,34 @@
   }
   &__icons {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: rem(268);
+    height: rem(73);
+    margin-bottom: rem(39);
     border: solid rem(1.6) rgba($color: $colorIcon, $alpha: 0.21);
     border-radius: rem(4);
-    width: rem(268);
-    height: rem(73.8);
-    margin-top: rem(17.8);
+
     @include tablet {
-      border: solid rem(2) rgba($color: $colorIcon, $alpha: 0.21);
-      border-radius: rem(5);
       width: rem(325);
       height: rem(86);
-      margin-top: rem(27);
+      margin-bottom: rem(127);
+      border: solid rem(2) rgba($color: $colorIcon, $alpha: 0.21);
+      border-radius: rem(5);
     }
 
     &--tandem {
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
+      justify-content: center;
       align-items: center;
       width: rem(60);
-      height: rem(48.8);
-      margin-top: rem(15);
-      margin-left: rem(12);
-      margin-right: rem(12);
+      height: rem(49);
       @include tablet {
         width: rem(75);
         height: rem(61);
-        margin-left: rem(15);
-        margin-right: rem(15);
+        margin: 0 rem(15);
       }
     }
     &--sections {
@@ -97,34 +107,37 @@
       }
     }
   }
-
   &__start {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: rem(129);
-    height: rem(42);
-    border-radius: rem(21);
-    background-color: $colorMediaB;
-    color: $colorBg;
-    text-transform: uppercase;
-    font-family: $fontText;
-    font-weight: 600;
-    margin-top: rem(38.6);
-    margin-bottom: rem(30);
-    @include tablet {
-      margin-top: rem(186);
-      margin-bottom: rem(59);
+    &--btn {
+      width: rem(129);
+      height: rem(42);
+      margin-bottom: rem(30);
+      border: none;
+      border-radius: rem(21);
+      background-color: $colorMediaB;
+      color: $colorBg;
+      text-transform: uppercase;
+      font-family: $fontText;
+      font-weight: 600;
+      @include tablet {
+        margin-bottom: rem(59);
+      }
     }
   }
+
+  // margin-top: rem(3);
+  // margin-bottom: rem(30);
+  // @include tablet {
+  // margin-top: rem(186);
+  // margin-bottom: rem(59);
 }
 .iconMain {
   color: $colorIcon;
   font-size: rem(22.4);
-}
-
-@include tablet {
-  .iconMain {
+  @include tablet {
     font-size: rem(28);
   }
 }
