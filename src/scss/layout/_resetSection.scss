@@ -3,13 +3,11 @@
   background-image: linear-gradient(to bottom, #bfcdd0, #dde9ed);
   @include tablet {
     margin: rem(20) rem(40);
-    /*  padding-bottom: rem(260); */
     border-radius: rem(5);
   }
 
   &__wrapper {
     width: rem(320);
-    height: rem(457);
     margin: auto;
     width: 100%;
     .trash {
