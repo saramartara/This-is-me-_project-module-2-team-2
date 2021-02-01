@@ -28,7 +28,7 @@
   color: $colorComplementaryA;
 }
 
-.palette1__list {
+.palette1 {
   margin-bottom: rem(15);
   .color1 {
     background-color: $colorPalette1A;
@@ -41,7 +41,7 @@
   }
 }
 
-.palette2__list {
+.palette2 {
   margin-bottom: rem(15);
   .color1 {
     background-color: $colorPalette2A;
@@ -54,7 +54,7 @@
   }
 }
 
-.palette3__list {
+.palette3 {
   margin-bottom: rem(15);
   .color1 {
     background-color: $colorPalette3A;
@@ -64,5 +64,42 @@
   }
   .color3 {
     background-color: $colorPalette3C;
+  }
+}
+
+//DUDA: habría que crear la paleta 1 si ya sale por defecto?// una vez resuelto anidamos en su sitio :)
+.palette1 {
+  .js-namePreview {
+    color: $colorPalette1A;
+  }
+  .sample__bar {
+    background-color: $colorPalette1B;
+  }
+  .social__menu--item {
+    border: rem(2) solid $colorPalette1C;
+  }
+}
+
+.palette2 {
+  .js-namePreview {
+    color: $colorPalette2A;
+  }
+  .sample__bar {
+    background-color: $colorPalette2B;
+  }
+  .social__menu--item {
+    border: rem(2) solid $colorPalette2C;
+  }
+}
+
+.palette3 {
+  .js-namePreview {
+    color: $colorPalette3A;
+  }
+  .sample__bar {
+    background-color: $colorPalette3B;
+  }
+  .social__menu--item {
+    border: rem(2) solid $colorPalette3C;
   }
 }

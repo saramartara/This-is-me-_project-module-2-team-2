@@ -1,23 +1,14 @@
 <!-- Forumulario: Diseña  -->
 
 <fieldset class="collapsable js-slide">
-  <include
-    src="./headerForm.html"
-    icon="fa fa-object-ungroup"
-    title="Diseña"
-  ></include>
+  <include src="./headerForm.html" icon="fa fa-object-ungroup" title="Diseña"></include>
 
   <div class="design collapsable__content js-content">
     <label for="palette1" class="design__label">
       <div class="colors">Colores</div>
-      <input
-        id="palette1"
-        type="radio"
-        name="palette"
-        class="design__radio"
-        checked
-      />
-      <ul class="palette1__list">
+      <input id="palette1" type="radio" value="1" name="palette" class="design__radio js-palette" checked />
+      <!-- Le he quitado a las 3 clases __list porque no me funcionaba y he añadido value a los inputs 1-2-3 -->
+      <ul class="palette1">
         <li class="design__color color1">Color A</li>
         <li class="design__color color2">Color B</li>
         <li class="design__color color3">Color C</li>
@@ -25,8 +16,8 @@
     </label>
 
     <label for="palette2" class="design__label">
-      <input id="pallete2" type="radio" name="palette" class="design__radio" />
-      <ul class="palette2__list">
+      <input id="pallete2" type="radio" value="2" name="palette" class="design__radio js-palette" />
+      <ul class="palette2">
         <li class="design__color color1">Color A</li>
         <li class="design__color color2">Color B</li>
         <li class="design__color color3">Color C</li>
@@ -34,8 +25,8 @@
     </label>
 
     <label for="palette3" class="design__label">
-      <input id="palette3" type="radio" name="palette" class="design__radio" />
-      <ul class="palette3__list">
+      <input id="palette3" type="radio" value="3" name="palette" class="design__radio js-palette" />
+      <ul class="palette3">
         <li class="design__color color1">Color A</li>
         <li class="design__color color2">Color B</li>
         <li class="design__color color3">Color C</li>
