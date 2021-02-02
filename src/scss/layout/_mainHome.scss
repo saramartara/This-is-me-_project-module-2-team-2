@@ -108,12 +108,12 @@
     }
   }
   &__start {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     &--btn {
       width: rem(129);
       height: rem(42);
+      display: flex;
+      justify-content: center;
+      align-items: center;
       margin-bottom: rem(30);
       border: none;
       border-radius: rem(21);
@@ -127,12 +127,6 @@
       }
     }
   }
-
-  // margin-top: rem(3);
-  // margin-bottom: rem(30);
-  // @include tablet {
-  // margin-top: rem(186);
-  // margin-bottom: rem(59);
 }
 .iconMain {
   color: $colorIcon;
