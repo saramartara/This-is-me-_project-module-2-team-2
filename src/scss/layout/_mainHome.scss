@@ -15,7 +15,7 @@
   justify-content: flex-end;
   background-color: $colorBgHome;
   @include tablet {
-    height: calc(100vh - 60px);
+    height: calc(100vh - 61px);
   }
 
   &__logo {
