@@ -42,15 +42,26 @@
     display: none;
   }
 } */
-.collapsable {
-  &__hide {
-    display: none;
-  }
+
+//clases especiales collapsables
+.fill,
+.share {
+  display: none;
 }
 .collapsable.collapsable--open {
   .collapsable {
     &__hide {
       display: block;
+    }
+    &__turn {
+      transform: rotate(180deg);
+    }
+  }
+}
+.collapsable.collapsable--close {
+  .collapsable {
+    &__hide {
+      display: none;
     }
     &__turn {
       transform: rotate(180deg);
