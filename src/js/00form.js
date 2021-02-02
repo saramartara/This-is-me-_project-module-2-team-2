@@ -105,48 +105,11 @@ function updateAllInputs() {
   }
 }
 
-<<<<<<< HEAD
 // obtengo los 6 inputs del html
 const inputTextElements = document.querySelectorAll('.js-inputText');
 // escucho a cada uno de ellos con un addEventListener
 for (const inputTextElement of inputTextElements) {
   inputTextElement.addEventListener('keyup', updateAllInputs);
-=======
-nameElement.addEventListener('keyup', handleName);
-
-//PUESTO
-const positionElement = document.querySelector('.js-position');
-const positionPreviewElement = document.querySelector('.js-positionPreview');
-
-function handlePosition(event) {
-  const positionValue = event.target.value;
-
-  if (positionValue === '') {
-    positionPreviewElement.innerHTML = 'Front-end developer';
-  } else {
-    positionPreviewElement.innerHTML = positionValue;
-  }
-}
-
-positionElement.addEventListener('keyup', handlePosition);
-
-// Nueva función para reaprovechar código
-
-//IMAGEN DE PERFIL
-
-//EMAIL
-
-const emailElement = document.querySelector('.js-email');
-const emailPreviewElement = document.querySelector('.js-emailPreview');
-function handleEmail(ev) {
-  const emailValue = ev.target.value;
-
-  if (emailValue === '') {
-    emailPreviewElement.href = '';
-  } else {
-    emailPreviewElement.href = 'mailto:' + emailValue;
-  }
->>>>>>> dev
 }
 
 // al arrancar la página proceso todos los inputs
