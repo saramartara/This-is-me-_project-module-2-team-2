@@ -9,7 +9,7 @@ const fillElement = document.querySelector('.js-fill');
 const shareElement = document.querySelector('.js-share');
 
 function handleShow1() {
-  collapsable1.classList.toggle('collapsable--open');
+  collapsable1.classList.toggle('collapsable--close');
 }
 function handleShow2() {
   collapsable2.classList.toggle('collapsable--open');
