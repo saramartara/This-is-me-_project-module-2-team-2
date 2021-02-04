@@ -1,19 +1,10 @@
 'use strict';
-
-const form = document.querySelector('.js-form');
-
-function handleForm(ev) {
-  ev.preventDefault();
-}
-
-form.addEventListener('submit', handleForm);
-
 const fr = new FileReader();
 const uploadBtn = document.querySelector('.js-profileTrigger');
 const fileField = document.querySelector('.js-profileUploadBtn');
 const profileImage = document.querySelector('.js-profileImage');
 const profilePreview = document.querySelector('.js-profilePreview');
-
+let photo = '';
 /**
  * Recoge el archivo añadido al campo de tipo "file"
  * y lo carga en nuestro objeto FileReader para que
@@ -27,7 +18,6 @@ function getImage(e) {
   fr.addEventListener('load', writeImage);
   fr.readAsDataURL(myFile);
 }
-
 /**
  * Una vez tenemos los datos listos en el FR podemos
  * trabajar con ellos ;)
@@ -38,11 +28,24 @@ function writeImage() {
    * podemos pasarlo como background a la imagen de perfil y a la vista previa
    * de nuestro componente.
    */
+  photo = fr.result;
+  updatePhoto();
+  // después de cualquier acción del usuario guardo en el local storage
+  saveInLocalStorage();
+}
 
-  console.log(fr.result);
+const defaultPhoto = document.querySelector('.sample__photo');
+
+function updatePhoto() {
+  const currentPhoto = photo || `url(${defaultPhoto.style.backgroundImage}`;
+  profilePreview.style.backgroundImage = `url(${currentPhoto})`;
+  profileImage.style.backgroundImage = `url(${currentPhoto})`;
+}
+
+/*   console.log(fr.result);
   profilePreview.style.backgroundImage = `url(${fr.result})`;
   profileImage.style.backgroundImage = `url(${fr.result})`;
-}
+ */
 
 /**
  * Genera un click automático en nuesto campo de tipo "file"
