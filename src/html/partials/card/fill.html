@@ -1,39 +1,82 @@
 <!-- Formulario: Rellena -->
+<!-- <form action="/" method="POST"> -->
 <fieldset class="collapsable js-slide2">
-  <include src="./headerForm.html" jsCollapsable="js-fill" arrow="fa fa-angle-down" icon="fa fa-keyboard-o"
-    title="Rellena"></include>
+  <include
+    src="./headerForm.html"
+    jsCollapsable="js-fill"
+    arrow="fa fa-angle-down"
+    icon="fa fa-keyboard-o"
+    title="Rellena"
+  ></include>
 
   <div class="collapsable__hide fill js-content">
     <label for="name" class="form__label">Nombre completo</label>
 
-    <input name="full_name" value="" type="text" id="name" class="form__inputText js-name js-inputText"
-      placeholder="Ej: Sally Jill" />
+    <input
+      name="full_name"
+      value=""
+      type="text"
+      id="name"
+      class="form__inputText js-name js-inputText"
+      placeholder="Ej: Sally Jill"
+    />
 
     <label for="job" class="form__label">Puesto</label>
-    <input name="job" value="" type="text" id="job" class="form__inputText js-position js-inputText"
-      placeholder="Ej: Front-end unicorn " />
+    <input
+      name="job"
+      value=""
+      type="text"
+      id="job"
+      class="form__inputText js-position js-inputText"
+      placeholder="Ej: Front-end unicorn "
+    />
 
     <label for="photo" class="form__label">Imagen de perfil</label>
     <div class="photo">
-      <input class="hidden js-profileUploadBtn" type="file" />
       <button class="photo__btn js-profileTrigger">Añadir imagen</button>
-      <input name="photo" class="photo__preview js-inputText js-profilePreview" id="photo" />
+      <input class="hidden js-profileUploadBtn" type="file" />
+      <div class="photo__preview js-inputText js-profilePreview"></div>
     </div>
 
     <label for="email" class="form__label">Email</label>
-    <input name="email" value="" id="email" type="email" class="js-email form__inputText js-inputText"
-      placeholder="Ej: sally-hill@gmail.com " />
+    <input
+      name="email"
+      value=""
+      id="email"
+      type="email"
+      class="js-email form__inputText js-inputText"
+      placeholder="Ej: sally-hill@gmail.com "
+    />
 
     <label for="phone" class="form__label">Teléfono</label>
-    <input name="phone" value="" id="phone" type="tel" class="form__inputText js-phone js-inputText"
-      placeholder="Ej: 555666888" />
+    <input
+      name="phone"
+      value=""
+      id="phone"
+      type="tel"
+      class="form__inputText js-phone js-inputText"
+      placeholder="Ej: 555666888"
+    />
 
     <label for="linkedin" class="form__label">Linkedin</label>
-    <input name="linkedin" value="" id="linkedin" type="text" class="js-linkedin form__inputText js-inputText"
-      placeholder="Ej: linkekin.com/in/sally..sally-hill" />
+    <input
+      name="linkedin"
+      value=""
+      id="linkedin"
+      type="text"
+      class="js-linkedin form__inputText js-inputText"
+      placeholder="Ej: linkekin.com/in/sally..sally-hill"
+    />
 
     <label for="github" class="form__label">Github</label>
-    <input name="github" value="" id="github" type="text" class="form__inputText js-github js-inputText"
-      placeholder="Ej: @sally-hill" />
+    <input
+      name="github"
+      value=""
+      id="github"
+      type="text"
+      class="form__inputText js-github js-inputText"
+      placeholder="Ej: @sally-hill"
+    />
   </div>
 </fieldset>
+<!-- </form> -->

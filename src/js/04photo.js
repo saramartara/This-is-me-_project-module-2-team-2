@@ -1,5 +1,13 @@
 'use strict';
 
+const form = document.querySelector('.js-form');
+
+function handleForm(ev) {
+  ev.preventDefault();
+}
+
+form.addEventListener('submit', handleForm);
+
 const fr = new FileReader();
 const uploadBtn = document.querySelector('.js-profileTrigger');
 const fileField = document.querySelector('.js-profileUploadBtn');
