@@ -19,6 +19,12 @@
     &--brandCard {
       width: rem(201);
       height: rem(50);
+      // @include tablet {
+      //   width: rem(321);
+      //   height: rem(80);
+      //   margin-left: rem(-20);
+      //   margin-top: rem(-10);
+      // }
     }
   }
 }
