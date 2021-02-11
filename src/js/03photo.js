@@ -1,4 +1,5 @@
 'use strict';
+
 const fr = new FileReader();
 const uploadBtn = document.querySelector('.js-profileTrigger');
 const fileField = document.querySelector('.js-profileUploadBtn');
