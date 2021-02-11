@@ -73,7 +73,7 @@
   }
 }
 .social {
-  margin: 0 rem(52) 0 rem(10);
+  margin: 0 rem(10) 0 rem(10);
 
   &__menu {
     list-style: none;
@@ -91,6 +91,9 @@
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+    &--home {
+      padding: rem(8);
     }
   }
 }

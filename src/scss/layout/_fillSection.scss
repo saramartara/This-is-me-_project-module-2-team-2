@@ -18,7 +18,7 @@
     height: rem(30);
     font-family: $fontText;
     font-size: $sizeSmall;
-    color: #c5c5c5;
+    color: $colorComplementaryA;
     line-height: rem(20);
     @include fontNormal();
     padding-left: rem(9);
