@@ -8,11 +8,11 @@ En ella puedes introducir tus datos profesionales y obtener una vista maquetada 
 **This is me** es además el proyecto personal de 4 mujeres que, en un insólito año 2020, lleno de excepcionalidades, decidieron reinventarse y apostar por la tecnología.
 
 La tecnología forma parte de nuestro día a día, y con este proyecto pretendemos hacerte partícipe de ella.
-Ahora dispones de una tarjeta virtual con la que puedes darte a conocer desde cualquier parte del mundo y en cualquier momento.
+Ahora dispones de una tarjeta virtual con la que puedes darte a conocer **desde cualquier parte del mundo y en cualquier momento**.
 
-Te damos voz para que cuentes al mundo todo lo que sabes hacer y encuentres el trabajo que quieras con una tarjeta que te defina.
+Te damos voz para que cuentes al mundo todo lo que sabes hacer y encuentres el trabajo que quieras con **una tarjeta que te defina**.
 
-Pensamos en nuestros bosques, en el futuro de nuestro planeta y por eso hemos creado una tarjeta que puedes utilizar tantas veces como quieras sin malgastar papel.
+Pensamos en nuestros bosques, en el futuro de nuestro planeta y por eso hemos creado una tarjeta que puedes **utilizar tantas veces como quieras** sin malgastar papel.
 
 La forma de exponernos condiciona cómo nos ven los demás. Preséntate con una tarjeta que muestre lo mejor de ti!
 
