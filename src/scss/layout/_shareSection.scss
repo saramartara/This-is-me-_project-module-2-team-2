@@ -10,10 +10,9 @@
   &__btn {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    width: rem(200);
-    height: rem(50);
+    width: rem(196);
+    height: rem(46);
     background-color: $colorIcon;
     border-radius: rem(12);
     box-shadow: 0 rem(1) rem(6) 0 rgba(0, 0, 0, 0.32);
@@ -26,12 +25,14 @@
 
     &--icon {
       padding-left: rem(17);
+      padding-top: rem(2.5);
       width: rem(25);
       height: rem(22);
       color: $colorBg;
     }
     &--text {
-      text-align: center;
+      text-align: left;
+      padding-left: rem(25);
       background-color: transparent;
       border: none;
       font-family: $fontText;
