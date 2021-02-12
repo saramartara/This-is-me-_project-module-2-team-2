@@ -14,7 +14,7 @@ Te damos voz para que cuentes al mundo todo lo que sabes hacer y encuentres el t
 
 Pensamos en nuestros bosques, en el futuro de nuestro planeta y por eso hemos creado una tarjeta que puedes **utilizar tantas veces como quieras** sin malgastar papel.
 
-La forma de exponernos condiciona cómo nos ven los demás. Preséntate con una tarjeta que muestre lo mejor de ti!
+La forma de exponernos condiciona cómo nos ven los demás. Preséntate con una tarjeta que muestre `lo mejor de ti!`
 
 **This is me, esta soy yo y estaré encantada de conocerte!**
 
@@ -31,7 +31,7 @@ Desde que la tenemos, siempre trabajamos con ella porque es una forma muy ordena
 Ademas hemos hecho muchísimo uso de las ramas en GitHub y esta vez los conflictos han sido mínimos a la hora de trabajar las 4 de forma simultánea en el código.
 
 El proyecto lo hemos ido construyendo a medida que hemos ido absorbiendo conocimientos en el módulo 2 del bootcamp de Adalab, dedicado a JavaScript. Lo cual creemos meritorio por la dificultad que conlleva.
-En el desarrollo de nuestra aplicación web This is me, hemos usado las siguientes tecnologías:
+En el desarrollo de nuestra aplicación web **This is me**, hemos usado las siguientes tecnologías:
 
 - Uso avanzado de formularios HTML
 - Maquetación usando CSS avanzado, como flex y grid
