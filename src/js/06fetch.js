@@ -1,27 +1,19 @@
 'use strict';
 
 const createBtn = document.querySelector('.js-createBtn');
-
-function handleCreateBtn() {
-  console.log('mis datos', getUserData());
-}
-
-createBtn.addEventListener('click', handleCreateBtn);
-
-/*
-const cardResultElement = document.querySelector('.js-card-result');
+const cardResultElement = document.querySelector('.js-cardResult');
 
 function handleCreateBtn(ev) {
   ev.preventDefault();
   console.log('Mis datos', getUserData());
 
-  const url =
-    'https://us-central1-awesome-cards-cf6f0.cloudfunctions.net/card/';
+  const url = 'https://profileawesome.herokuapp.com/card';
   const data = getUserData();
 
   fetch(url, {
     method: 'POST',
     body: JSON.stringify(data),
+    mode: 'no-cors',
     headers: {
       'Content-Type': 'application/json',
     },
@@ -38,4 +30,3 @@ function handleCreateBtn(ev) {
 }
 
 createBtn.addEventListener('click', handleCreateBtn);
-*/
