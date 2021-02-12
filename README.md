@@ -75,4 +75,4 @@ Somos:
 Agradecemos a Mike, nuestro Product Owner por su flexibilidad ante nuestras propuestas para hacer realidad esta aplicación. Y damos las gracias a nuestro profe Miguel del Mazo por darnos ánimo, aliento y alas para JavaScriptear!
 `graciasCrack();`
 
-![This is me](http://beta.adalab.es/project-promo-l-module-2-team-2/images/thisismeLogo@2x.png)
+![This is me](http://beta.adalab.es/project-promo-l-module-2-team-2/src/images/thisismeLogo@2x.png)
