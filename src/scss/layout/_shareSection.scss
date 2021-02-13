@@ -3,16 +3,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: rem(10);
 }
 .share {
-  padding: rem(25) 0;
+  padding: rem(25) 0 rem(15) 0;
   &__btn {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: rem(200);
+    width: rem(199);
     height: rem(50);
     background-color: $colorIcon;
     border-radius: rem(12);
@@ -47,14 +46,13 @@
   display: none;
   height: rem(123);
   padding-top: rem(20);
-  border-top: rem(1) solid $colorBorFooter;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   &__title {
     font-family: $fontText;
-    font-size: $sizeTitle;
+    font-size: $sizeSmall;
     color: #54585a;
     @include fontNormal {
       font-weight: 600;
@@ -62,9 +60,9 @@
   }
   &__url {
     font-family: $fontText;
-    font-size: rem(10);
+    font-size: rem(12);
     color: $colorIcon;
-    padding: rem(5);
+    padding: rem(10) 0;
     text-decoration: underline;
   }
   &__btnTwitter {
@@ -85,6 +83,17 @@
     transition-duration: 0.3s;
     &:hover {
       transform: scale(1.1);
+    }
+  }
+  &__error {
+    padding: rem(20) 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &--title {
+      font-family: $fontText;
+      font-size: $sizeSmall;
+      color: #54585a;
     }
   }
 }
