@@ -30,6 +30,22 @@
     font-family: $fontText;
     color: $colorSections;
   }
+
+  .collapsable__content {
+    max-height: 100vh;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+  }
+
+  .collapsable--close {
+    .collapsable__icon--right {
+      transform: rotate(180deg);
+    }
+
+    .collapsable__content {
+      max-height: 0;
+    }
+  }
 }
 
 // hace que la flecha rote y oculte la seccion collapsable__content de Diseña. Cuando el collapsable tenga clase close, su hijo rote 180 grados y oculte el contenido. Por eso se aplica a el padre.
@@ -43,28 +59,30 @@
   }
 } */
 
-//clases especiales collapsables
-.fill,
-.share {
-  display: none;
-}
-.collapsable.collapsable--open {
-  .collapsable {
-    &__hide {
-      display: block;
-    }
-    &__turn {
-      transform: rotate(180deg);
-    }
-  }
-}
-.collapsable.collapsable--close {
-  .collapsable {
-    &__hide {
-      display: none;
-    }
-    &__turn {
-      transform: rotate(180deg);
-    }
-  }
-}
+// //clases especiales collapsables
+// .fill,
+// .share {
+//   display: none;
+// }
+// .collapsable.collapsable--open {
+//   .collapsable {
+//     &__hide {
+//       display: block;
+//     }
+//     &__turn {
+//       transform: rotate(180deg);
+//     }
+//   }
+// }
+// .collapsable.collapsable--close {
+//   .collapsable {
+//     &__hide {
+//       display: none;
+//     }
+//     &__turn {
+//       transform: rotate(180deg);
+//     }
+//   }
+// }
+
+// content

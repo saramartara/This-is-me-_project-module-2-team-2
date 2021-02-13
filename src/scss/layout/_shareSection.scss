@@ -7,6 +7,13 @@
 }
 .share {
   padding: rem(30) 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  // <!-- el botón crear tarjeta no se centra por display block de collapsable -->
+
   &__btn {
     display: flex;
     flex-direction: row;

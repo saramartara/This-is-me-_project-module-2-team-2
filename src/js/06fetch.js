@@ -13,7 +13,6 @@ function handleCreateBtn(ev) {
   fetch(url, {
     method: 'POST',
     body: JSON.stringify(data),
-    mode: 'no-cors',
     headers: {
       'Content-Type': 'application/json',
     },

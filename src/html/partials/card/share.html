@@ -2,32 +2,27 @@
 <fieldset class="collapsable js-slide3">
   <include
     src="./headerForm.html"
-    jsCollapsable="js-share"
-    arrow="fa fa-angle-down"
     icon="fa fa-share-alt"
     title="Comparte"
   ></include>
 
-  <div class="shareContainer js-content">
-    <section class="share collapsable__hide">
-      <div class="share__btn">
-        <i class="share__btn--icon fa fa-address-card-o" aria-hidden="true"></i>
-        <input
-          class="share__btn--text"
-          type="submitt"
-          value="Crear tarjeta"
-          name="shareButton"
-        />
-      </div>
+  <div class="collapsable__content js-content">
+    <button class="share__btn--text js-createBtn">
+      <i class="share__btn--icon fa fa-address-card-o" aria-hidden="true"></i>
+      Crear tarjeta
+    </button>
 
-      <section class="created">
-        <h3 class="created__title">La tarjeta ha sido creada:</h3>
-        <p class="created__url js-cardResult"></p>
-
-        <button class="js-createBtn created__btnTwitter">
-          <i class="fa fa-twitter" aria-hidden="true"></i> Compartir en twitter
-        </button>
-      </section>
-    </section>
+    <div>
+      <h3 class="created__title">La tarjeta ha sido creada:</h3>
+      <p class="created__url js-cardResult"></p>
+    </div>
   </div>
 </fieldset>
+
+<!-- se debería ocultar a partir de aquí -->
+
+<section class="created">
+  <button class="js-createBtn created__btnTwitter">
+    <i class="fa fa-twitter" aria-hidden="true"></i> Compartir en twitter
+  </button>
+</section>
