@@ -39,49 +39,6 @@
   .color3 {
     background-color: $colorPalette1C;
   }
-}
-
-.palette2 {
-  margin-bottom: rem(15);
-  .color1 {
-    background-color: $colorPalette2A;
-  }
-  .color2 {
-    background-color: $colorPalette2B;
-  }
-  .color3 {
-    background-color: $colorPalette2C;
-  }
-}
-
-.palette3 {
-  margin-bottom: rem(15);
-  .color1 {
-    background-color: $colorPalette3A;
-  }
-  .color2 {
-    background-color: $colorPalette3B;
-  }
-  .color3 {
-    background-color: $colorPalette3C;
-  }
-}
-.palette4 {
-  margin-bottom: rem(15);
-  .color1 {
-    background-color: $colorPalette4A;
-  }
-  .color2 {
-    background-color: $colorPalette4B;
-  }
-  .color3 {
-    background-color: $colorPalette4C;
-  }
-}
-
-//DUDA: habría que crear la paleta 1 si ya sale por defecto?// una vez resuelto anidamos en su sitio :)
-
-.palette1 {
   .sample {
     background: linear-gradient(rgba($colorMediaC, 0.7), white);
   }
@@ -97,8 +54,18 @@
 }
 
 .palette2 {
+  margin-bottom: rem(15);
+  .color1 {
+    background-color: $colorPalette2A;
+  }
+  .color2 {
+    background-color: $colorPalette2B;
+  }
+  .color3 {
+    background-color: $colorPalette2C;
+  }
   .sample {
-    background: linear-gradient(rgba($colorPalette2C, 0.7), white); //AQUI GRADIENTE FONDO
+    background: linear-gradient(rgba($colorPalette2C, 0.7), white);
   }
   .js-namePreview {
     color: $colorPalette2A;
@@ -112,8 +79,18 @@
 }
 
 .palette3 {
+  margin-bottom: rem(15);
+  .color1 {
+    background-color: $colorPalette3A;
+  }
+  .color2 {
+    background-color: $colorPalette3B;
+  }
+  .color3 {
+    background-color: $colorPalette3C;
+  }
   .sample {
-    background: linear-gradient(rgba($colorPalette3C, 0.7), white); //AQUI GRADIENTE FONDO
+    background: linear-gradient(rgba($colorPalette3C, 0.7), white);
   }
   .js-namePreview {
     color: $colorPalette3A;
@@ -125,10 +102,19 @@
     border: rem(2) solid $colorPalette3C;
   }
 }
-
 .palette4 {
+  margin-bottom: rem(15);
+  .color1 {
+    background-color: $colorPalette4A;
+  }
+  .color2 {
+    background-color: $colorPalette4B;
+  }
+  .color3 {
+    background-color: $colorPalette4C;
+  }
   .sample {
-    background: linear-gradient(rgba($colorPalette4C, 0.7), white); //AQUI GRADIENTE FONDO
+    background: linear-gradient(rgba($colorPalette4C, 0.7), white);
   }
   .js-namePreview {
     color: $colorPalette4A;
