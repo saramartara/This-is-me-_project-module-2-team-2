@@ -116,3 +116,4 @@ for (const inputTextElement of inputTextElements) {
 
 // al arrancar la página proceso todos los inputs
 // como updateAllInputs no recibe eventos puedo ejecutar esta función al inicio, tras un evento de usuaria o cuando me de la real gana!!!
+
