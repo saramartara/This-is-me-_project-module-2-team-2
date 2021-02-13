@@ -6,11 +6,11 @@
   padding-top: rem(10);
 }
 .share {
-  padding: rem(30) 0;
+  padding: rem(25) 0;
   &__btn {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: rem(200);
     height: rem(50);
@@ -25,21 +25,20 @@
     }
 
     &--icon {
-      padding-left: rem(17);
+      padding-right: rem(17);
       width: rem(25);
       height: rem(22);
     }
     &--text {
-      text-align: center;
       background-color: transparent;
       border: none;
       font-family: $fontText;
-      font-size: $sizeTitle;
+      font-size: rem(18);
       color: $colorBg;
       text-transform: uppercase;
       cursor: pointer;
       @include fontNormal {
-        font-weight: 600;
+        font-weight: 500;
       }
     }
   }
