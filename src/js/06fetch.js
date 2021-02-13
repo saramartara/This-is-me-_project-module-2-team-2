@@ -2,6 +2,7 @@
 
 const createBtn = document.querySelector('.js-create-btn');
 const cardResultElement = document.querySelector('.js-card-result');
+const createdSection = document.querySelector('.js-created');
 
 function handleCreateBtn(ev) {
   ev.preventDefault();
@@ -27,6 +28,7 @@ function handleCreateBtn(ev) {
         cardResultElement.innerHTML = data.error;
       }
     });
+  createdSection.classList.remove('created--hidden');
 }
 
 createBtn.addEventListener('click', handleCreateBtn);
