@@ -1,9 +1,9 @@
 $defaultFontSize: 16;
 
 // fonts
-$fontTitle: "Merriweather", serif;
-$fontText: "Open Sans", sans-serif;
-$fontSecondary: "Montserrat", sans-serif;
+$fontTitle: 'Merriweather', serif;
+$fontText: 'Open Sans', sans-serif;
+$fontSecondary: 'Montserrat', sans-serif;
 
 // fonts size
 $sizeSmall: rem(14);
@@ -34,3 +34,7 @@ $colorPalette2C: #e95626;
 $colorPalette3A: #3e5b65;
 $colorPalette3B: #eab052;
 $colorPalette3C: #a0c0cf;
+//colors palette-4
+$colorPalette4A: $colorComplementaryA;
+$colorPalette4B: $colorSmall;
+$colorPalette4C: $colorBorFooter;

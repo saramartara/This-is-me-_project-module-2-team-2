@@ -66,6 +66,18 @@
     background-color: $colorPalette3C;
   }
 }
+.palette4 {
+  margin-bottom: rem(15);
+  .color1 {
+    background-color: $colorPalette4A;
+  }
+  .color2 {
+    background-color: $colorPalette4B;
+  }
+  .color3 {
+    background-color: $colorPalette4C;
+  }
+}
 
 //DUDA: habría que crear la paleta 1 si ya sale por defecto?// una vez resuelto anidamos en su sitio :)
 
@@ -102,5 +114,20 @@
   }
   .social__menu--item {
     border: rem(2) solid $colorPalette3C;
+  }
+}
+
+.palette4 {
+  .js-namePreview {
+    color: $colorPalette4A;
+  }
+  .sample__bar {
+    background-color: $colorPalette4B;
+  }
+  .social__menu--item {
+    border: rem(2) solid $colorPalette4C;
+  }
+  .filter {
+    filter: grayscale(100%);
   }
 }
