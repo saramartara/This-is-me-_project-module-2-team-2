@@ -44,7 +44,7 @@
 .sample {
   max-width: rem(240);
   margin: auto;
-  background: linear-gradient(rgba($colorMediaC, 0.7), white); //AQUI GRADIENTE FONDO
+  background: linear-gradient(rgba($colorMediaC, 0.7), white);
   &__bar {
     width: rem(5);
     height: rem(42);
