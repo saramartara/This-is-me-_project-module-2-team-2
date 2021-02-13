@@ -6,6 +6,7 @@ const createdSection = document.querySelector('.js-created');
 
 function handleCreateBtn(ev) {
   ev.preventDefault();
+
   console.log('Mis datos', getUserData());
 
   const url = 'https://profileawesome.herokuapp.com/card';

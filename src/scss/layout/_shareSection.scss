@@ -28,7 +28,6 @@
       padding-left: rem(17);
       width: rem(25);
       height: rem(22);
-      color: $colorBg;
     }
     &--text {
       text-align: center;
@@ -38,6 +37,7 @@
       font-size: $sizeTitle;
       color: $colorBg;
       text-transform: uppercase;
+      cursor: pointer;
       @include fontNormal {
         font-weight: 600;
       }
