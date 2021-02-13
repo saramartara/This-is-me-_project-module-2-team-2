@@ -7,6 +7,7 @@
   &__wrapper {
     width: rem(320);
     margin: auto;
+    padding: rem(27) rem(20) rem(30);
     @include tablet {
       margin-left: rem(40);
     }
