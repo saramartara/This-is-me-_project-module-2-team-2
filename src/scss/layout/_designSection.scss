@@ -82,6 +82,9 @@
 //DUDA: habría que crear la paleta 1 si ya sale por defecto?// una vez resuelto anidamos en su sitio :)
 
 .palette1 {
+  .sample {
+    background: linear-gradient(rgba($colorMediaC, 0.7), white);
+  }
   .js-namePreview {
     color: $colorPalette1A;
   }
@@ -94,6 +97,9 @@
 }
 
 .palette2 {
+  .sample {
+    background: linear-gradient(rgba($colorPalette2C, 0.7), white); //AQUI GRADIENTE FONDO
+  }
   .js-namePreview {
     color: $colorPalette2A;
   }
@@ -106,6 +112,9 @@
 }
 
 .palette3 {
+  .sample {
+    background: linear-gradient(rgba($colorPalette3C, 0.7), white); //AQUI GRADIENTE FONDO
+  }
   .js-namePreview {
     color: $colorPalette3A;
   }
@@ -118,6 +127,9 @@
 }
 
 .palette4 {
+  .sample {
+    background: linear-gradient(rgba($colorPalette4C, 0.7), white); //AQUI GRADIENTE FONDO
+  }
   .js-namePreview {
     color: $colorPalette4A;
   }
