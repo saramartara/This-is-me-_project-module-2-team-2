@@ -12,8 +12,8 @@ form.addEventListener('submit', handleSubmit);
 
 // prevenimos la apertura de ventana al pulsar intro (keyCode=13)
 function handle13Keydown(ev) {
-  var keyCode = event.which;
-  if (keyCode == 13){
+  var keyCode = ev.which;
+  if (keyCode === 13) {
     ev.preventDefault();
     return false;
   }
