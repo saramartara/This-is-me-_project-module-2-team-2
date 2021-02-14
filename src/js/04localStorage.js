@@ -39,6 +39,7 @@ function getUserData() {
     phone: document.querySelector('.js-inputPhone').value,
     linkedin: document.querySelector('.js-inputLinkedin').value,
     github: document.querySelector('.js-inputGithub').value,
+    logoHome: document.querySelector('.js-logoHome'),
   };
 }
 // cuando la usuaria cambia cualquier cosa en el formulario debemos llamar a esta función
@@ -64,6 +65,7 @@ function getFromLocalStorage() {
     document.querySelector('.js-inputPhone').value = userData.phone;
     document.querySelector('.js-inputLinkedin').value = userData.linkedin;
     document.querySelector('.js-inputGithub').value = userData.github;
+    // document.querySelector('.js-logoHome') = userdaData.logoHome;
     // actualizo la variable global de la foto
     photo = userData.photo;
     // actualizo la paleta, para ello
