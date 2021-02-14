@@ -1,4 +1,4 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+![This is me](http://beta.adalab.es/project-promo-l-module-2-team-2/assets/images/thisismeLogo@1x.png)
 
 # This is me Project
 
@@ -28,21 +28,21 @@ En el bootcamp de Adalab nos han proporcionado una plantilla de proyecto con fun
 
 Desde que la tenemos, siempre trabajamos con ella porque es una forma muy ordenada de gestionar y de sectorizar todo el código.
 
-Ademas hemos hecho muchísimo uso de las ramas en GitHub y esta vez los conflictos han sido mínimos a la hora de trabajar las 4 de forma simultánea en el código.
+Ademas hemos utilizado las ramas en GitHub de forma intensiva y eficiente por lo que los conflictos han sido mínimos a la hora de trabajar las 4 de forma simultánea en el código.
 
 El proyecto lo hemos ido construyendo a medida que hemos ido absorbiendo conocimientos en el módulo 2 del bootcamp de Adalab, dedicado a JavaScript. Lo cual creemos meritorio por la dificultad que conlleva.
 En el desarrollo de nuestra aplicación web **This is me**, hemos usado las siguientes tecnologías:
 
-- Uso avanzado de formularios HTML
-- Maquetación usando CSS avanzado, como flex y grid
-- Uso de mediaqueries para que el diseño sea adaptable al dispositivo usando la estrategia mobile first
-- Gestión de eventos en el navegador (al hacer click, pasa x, etc.)
-- Acceso y envío de datos a un servidor
-- Almacenamiento en local usando LocalStorage
-- Uso de git para el control de versiones del proyecto
-- Publicación del resultado en Internet usando GitHub Pages
+- Uso avanzado de formularios HTML.
+- Maquetación usando CSS avanzado como flex.
+- Uso de mediaqueries para que el diseño sea adaptable al dispositivo usando la estrategia mobile first.
+- Gestión de eventos en el navegador.
+- Acceso y envío de datos a un servidor.
+- Almacenamiento en local usando LocalStorage.
+- Uso de git para el control de versiones del proyecto.
+- Publicación del resultado en Internet usando GitHub Pages.
 
-> **NOTA:** Si tienes alguna sugerencia o mejora: son siempre bienvenidas!
+> **NOTA:** ¡Si tienes alguna sugerencia o mejora son siempre bienvenidas!
 
 ## Cultura Agile
 
@@ -52,7 +52,7 @@ Desde que conocemos **Agile**, ponemos en práctica todos sus recursos para enfr
 
 Usamos Agile como forma de trabajo y organización.
 
-**Scrum** es la metodología ágil que nos ha acompañado en la gestión del proyecto. Con su conjunto de prácticas y roles nos ha permitido trabajar sobre las entregas incrementales del producto.
+**Scrum** es un marco de trabajo ágil que nos ha acompañado en la gestión del proyecto. Con su conjunto de prácticas y roles nos ha permitido trabajar sobre las entregas incrementales del producto.
 
 Hemos realizado 2 **Sprints**. En cada Sprint hemos tenido una scrum master diferente para repartir las tareas entre todas. Gracias a Sara y a Berta por estar al mando del cargo en cada uno de los sprints!
 
@@ -68,11 +68,11 @@ Somos:
 - [Berta Pluma ](https://www.linkedin.com/in/bertaplumasanjurjo/)
 - [Laura Portillo](https://www.linkedin.com/in/laura-portillo-rodr%C3%ADguez-21965a86/)
 - [Sagra Mielgo](https://www.linkedin.com/in/sagramielgo/)
-- [Sara Martínez](https://github.com/saramartara)
+- [Sara Martínez](mailto:saramartinezaragon@gmail.com)
 
 ### Agradecimientos
 
 Agradecemos a Mike, nuestro Product Owner por su flexibilidad ante nuestras propuestas para hacer realidad esta aplicación. Y damos las gracias a nuestro profe Miguel del Mazo por darnos ánimo, aliento y alas para JavaScriptear!
-`graciasCrack();`
+`graciasCrack();` Y muchas gracias a Dayana Romero, Iván Garrido y Mari Carmen, for sure!
 
-![This is me](http://beta.adalab.es/project-promo-l-module-2-team-2/assets/images/thisismeLogo@1x.png)
+![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
