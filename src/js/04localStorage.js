@@ -1,5 +1,6 @@
 'use strict';
 const resetButtonElement = document.querySelector('.js-reset');
+// const logoHome = document.querySelector('.js-logoHome');
 
 function resetInfo() {
   localStorage.clear();
@@ -30,6 +31,7 @@ Recuperar del local storage:
 // cuando la usuaria cambia cualquier cosa en el formulario debemos llamar a esta función
 function getUserData() {
   // obtengo los valores de todos los campos
+
   return {
     photo: photo,
     palette: parseInt(document.querySelector('.js-palette:checked').value),
@@ -40,6 +42,7 @@ function getUserData() {
     linkedin: document.querySelector('.js-inputLinkedin').value,
     github: document.querySelector('.js-inputGithub').value,
     logoHome: document.querySelector('.js-logoHome'),
+    // logoHome: logoHome,
   };
 }
 // cuando la usuaria cambia cualquier cosa en el formulario debemos llamar a esta función
@@ -79,6 +82,7 @@ function getFromLocalStorage() {
       }
     }
     // propago los datos desde el formulario a la tarjeta
+
     updateAllInputs();
     updatePalette();
     updatePhoto();

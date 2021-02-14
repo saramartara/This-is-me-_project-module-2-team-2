@@ -43,6 +43,13 @@ const inputsTextConfig = [
     cardPrefix: 'https://github.com/',
     cardElementAttribute: 'href',
   },
+  // {
+  //   inputClass: '.js-logoHome',
+  //   cardClass: '.js-logoHome',
+  //   defaultValue: '',
+  //   cardPrefix: '',
+  //   cardElementAttribute: '',
+  // },
 ];
 
 function updateAllInputs() {
@@ -104,6 +111,7 @@ function updateAllInputs() {
     console.log('-------------------------------------------------');
   }
   // después de cualquier acción del usuario guardo en el local storage
+
   saveInLocalStorage();
 }
 
