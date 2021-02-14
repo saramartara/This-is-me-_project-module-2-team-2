@@ -141,3 +141,13 @@
     font-size: rem(28);
   }
 }
+
+// .shake-slow {
+//   @include do-shake('shake-crazy', 40, 40, 20, 100ms, 0.1, $opacity: true);
+// }
+// .shake-slow {
+//   border: 2px red solid;
+// }
+
+.shake-slow {
+}

@@ -3,16 +3,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: rem(10);
 }
 .share {
-  padding: rem(30) 0;
+  padding: rem(25) 0 rem(15) 0;
   &__btn {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: rem(200);
+    width: rem(199);
     height: rem(50);
     background-color: $colorIcon;
     border-radius: rem(12);
@@ -25,36 +24,35 @@
     }
 
     &--icon {
-      padding-left: rem(17);
+      padding-right: rem(17);
       width: rem(25);
       height: rem(22);
-      color: $colorBg;
     }
     &--text {
-      text-align: center;
       background-color: transparent;
       border: none;
       font-family: $fontText;
-      font-size: $sizeTitle;
+      font-size: rem(18);
       color: $colorBg;
       text-transform: uppercase;
+      cursor: pointer;
       @include fontNormal {
-        font-weight: 600;
+        font-weight: 500;
       }
     }
   }
 }
 .created {
+  display: none;
   height: rem(123);
   padding-top: rem(20);
-  border-top: rem(1) solid $colorBorFooter;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   &__title {
     font-family: $fontText;
-    font-size: $sizeTitle;
+    font-size: $sizeSmall;
     color: #54585a;
     @include fontNormal {
       font-weight: 600;
@@ -64,10 +62,14 @@
     font-family: $fontText;
     font-size: rem(12);
     color: $colorIcon;
+    padding: rem(10) 0;
+    text-decoration: underline;
   }
   &__btnTwitter {
     width: rem(181);
     height: rem(30);
+    padding: rem(8) 0 rem(10) 0;
+    margin-top: rem(15);
     margin-bottom: rem(20);
     border-radius: rem(3);
     border: none;
@@ -83,4 +85,18 @@
       transform: scale(1.1);
     }
   }
+  &__error {
+    padding: rem(20) 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &--title {
+      font-family: $fontText;
+      font-size: $sizeSmall;
+      color: #54585a;
+    }
+  }
+}
+.created--hidden {
+  display: none;
 }

@@ -39,6 +39,18 @@
   .color3 {
     background-color: $colorPalette1C;
   }
+  .sample {
+    background: linear-gradient(rgba($colorMediaC, 0.7), white);
+  }
+  .js-namePreview {
+    color: $colorPalette1A;
+  }
+  .sample__bar {
+    background-color: $colorPalette1B;
+  }
+  .social__menu--item {
+    border: rem(2) solid $colorPalette1C;
+  }
 }
 
 .palette2 {
@@ -51,6 +63,18 @@
   }
   .color3 {
     background-color: $colorPalette2C;
+  }
+  .sample {
+    background: linear-gradient(rgba($colorPalette2C, 0.7), white);
+  }
+  .js-namePreview {
+    color: $colorPalette2A;
+  }
+  .sample__bar {
+    background-color: $colorPalette2B;
+  }
+  .social__menu--item {
+    border: rem(2) solid $colorPalette2C;
   }
 }
 
@@ -65,35 +89,9 @@
   .color3 {
     background-color: $colorPalette3C;
   }
-}
-
-//DUDA: habría que crear la paleta 1 si ya sale por defecto?// una vez resuelto anidamos en su sitio :)
-
-.palette1 {
-  .js-namePreview {
-    color: $colorPalette1A;
+  .sample {
+    background: linear-gradient(rgba($colorPalette3C, 0.7), white);
   }
-  .sample__bar {
-    background-color: $colorPalette1B;
-  }
-  .social__menu--item {
-    border: rem(2) solid $colorPalette1C;
-  }
-}
-
-.palette2 {
-  .js-namePreview {
-    color: $colorPalette2A;
-  }
-  .sample__bar {
-    background-color: $colorPalette2B;
-  }
-  .social__menu--item {
-    border: rem(2) solid $colorPalette2C;
-  }
-}
-
-.palette3 {
   .js-namePreview {
     color: $colorPalette3A;
   }
@@ -103,4 +101,31 @@
   .social__menu--item {
     border: rem(2) solid $colorPalette3C;
   }
+}
+.palette4 {
+  margin-bottom: rem(15);
+  .color1 {
+    background-color: $colorPalette4A;
+  }
+  .color2 {
+    background-color: $colorPalette4B;
+  }
+  .color3 {
+    background-color: $colorPalette4C;
+  }
+  .sample {
+    background: linear-gradient(rgba($colorPalette4C, 0.7), white);
+  }
+  .js-namePreview {
+    color: $colorPalette4A;
+  }
+  .sample__bar {
+    background-color: $colorPalette4B;
+  }
+  .social__menu--item {
+    border: rem(2) solid $colorPalette4C;
+  }
+  // .filter {
+  //   filter: grayscale(100%);
+  // }
 }
