@@ -9,7 +9,6 @@ function updatePalette() {
   const checkedPaletteElement = document.querySelector('.js-palette:checked');
   checkedPalette = checkedPaletteElement.value;
   cardElement.classList.add('palette' + checkedPalette);
-  // después de cualquier acción del usuario guardo en el local storage
   saveInLocalStorage();
 }
 

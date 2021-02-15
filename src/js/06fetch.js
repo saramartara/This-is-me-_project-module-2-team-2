@@ -9,8 +9,6 @@ const errorSection = document.querySelector('.js-error');
 function handleCreateBtn(ev) {
   ev.preventDefault();
 
-  console.log('Mis datos', getUserData());
-
   const url = 'https://profileawesome.herokuapp.com/card';
   const data = getUserData();
 
@@ -23,7 +21,6 @@ function handleCreateBtn(ev) {
   })
     .then((response) => response.json())
     .then((data) => {
-      console.log('Server response:', data);
       if (data.success === true) {
         cardResultElement.innerHTML = data.cardURL;
         cardResultElement.href = data.cardURL;
