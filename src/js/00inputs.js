@@ -46,13 +46,7 @@ const inputsTextConfig = [
 ];
 
 function updateAllInputs() {
-  // recorro los 6 inputs del array inputsTextConfig
   for (const inputTextConfig of inputsTextConfig) {
-    // por cada objeto del array inputsTextConfig hago:
-    console.log(
-      'Empiezo una nueva iteración del for con la configuración del elemento:',
-      inputTextConfig
-    );
     // obtengo el elemento input, el origen
     const inputElement = document.querySelector(inputTextConfig.inputClass);
     console.log(
@@ -116,4 +110,3 @@ for (const inputTextElement of inputTextElements) {
 
 // al arrancar la página proceso todos los inputs
 // como updateAllInputs no recibe eventos puedo ejecutar esta función al inicio, tras un evento de usuaria o cuando me de la real gana!!!
-
