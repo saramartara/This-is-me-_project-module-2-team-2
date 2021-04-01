@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
-
-# This is me! 
-=======
 ![This is me](http://beta.adalab.es/project-promo-l-module-2-team-2/assets/images/thisismeLogo@1x.png)
 
 # This is me Project
@@ -73,7 +68,7 @@ Somos:
 - [Berta Pluma ](https://www.linkedin.com/in/bertaplumasanjurjo/)
 - [Laura Portillo](https://www.linkedin.com/in/laura-portillo-rodr%C3%ADguez-21965a86/)
 - [Sagra Mielgo](https://www.linkedin.com/in/sagramielgo/)
-- [Sara Martínez](mailto:saramartinezaragon@gmail.com)
+- [Sara Martínez](https://www.linkedin.com/in/saramartara/)
 
 ### Agradecimientos
 
@@ -81,4 +76,3 @@ Agradecemos a Mike, nuestro Product Owner por su flexibilidad ante nuestras prop
 `graciasCrack();` Y muchas gracias a Dayana Romero, Iván Garrido y Mari Carmen, for sure!
 
 ![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
->>>>>>> dev
