@@ -1,11 +1,11 @@
-![This is me](http://beta.adalab.es/project-promo-l-module-2-team-2/assets/images/thisismeLogo@1x.png)
+![This is me][beta]
 
 # This is me Project
 
-**This is me** es una aplicación web interactiva que te permite crear tu propia tarjeta de visita personalizada.
+[**This is me**][beta] es una aplicación web interactiva que te permite crear tu propia tarjeta de visita personalizada.
 En ella puedes introducir tus datos profesionales y obtener una vista maquetada con la información que desees.
 
-**This is me** es además el proyecto personal de 4 mujeres que, en un insólito año 2020, lleno de excepcionalidades, decidieron reinventarse y apostar por la tecnología.
+[**This is me**][beta] es además el proyecto personal de 4 mujeres que, en un insólito año 2020, lleno de excepcionalidades, decidieron reinventarse y apostar por la tecnología.
 
 La tecnología forma parte de nuestro día a día, y con este proyecto pretendemos hacerte partícipe de ella.
 Ahora dispones de una tarjeta virtual con la que puedes darte a conocer **desde cualquier parte del mundo y en cualquier momento**.
@@ -20,7 +20,7 @@ La forma de exponernos condiciona cómo nos ven los demás. Preséntate con una 
 
 ### Nuestra web
 
-Haz click aqui si quieres ver [This is me Project!](http://beta.adalab.es/project-promo-l-module-2-team-2/)
+Haz click aqui si quieres ver [This is me Project!][beta]
 
 ## Descripción Técnica
 
@@ -31,7 +31,7 @@ Desde que la tenemos, siempre trabajamos con ella porque es una forma muy ordena
 Ademas hemos utilizado las ramas en GitHub de forma intensiva y eficiente por lo que los conflictos han sido mínimos a la hora de trabajar las 4 de forma simultánea en el código.
 
 El proyecto lo hemos ido construyendo a medida que hemos ido absorbiendo conocimientos en el módulo 2 del bootcamp de Adalab, dedicado a JavaScript. Lo cual creemos meritorio por la dificultad que conlleva.
-En el desarrollo de nuestra aplicación web **This is me**, hemos usado las siguientes tecnologías:
+En el desarrollo de nuestra aplicación web [**This is me**][beta], hemos usado las siguientes tecnologías:
 
 - Uso avanzado de formularios HTML.
 - Maquetación usando CSS avanzado como flex.
@@ -70,10 +70,11 @@ Somos:
 - [Sagra Mielgo](https://www.linkedin.com/in/sagramielgo/)
 - [Sara Martínez](https://www.linkedin.com/in/saramartara/)
 
-
 ### Agradecimientos
 
 Agradecemos a Mike, nuestro Product Owner por su flexibilidad ante nuestras propuestas para hacer realidad esta aplicación. Y damos las gracias a nuestro profe Miguel del Mazo por darnos ánimo, aliento y alas para JavaScriptear!
 `graciasCrack();` Y muchas gracias a Dayana Romero, Iván Garrido y Mari Carmen, for sure!
 
 ![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+
+[beta]: http://beta.adalab.es/project-promo-l-module-2-team-2/
