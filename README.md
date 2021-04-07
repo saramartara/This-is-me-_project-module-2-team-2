@@ -60,8 +60,8 @@ El tablero **Kanban** ha sido la herramienta que hemos utilizado para visualizar
 
 ## Autoras
 
-Si te gusta nuestro trabajo y quieres saber más de nosotras, no dudes en **ponerte en contacto con This is me!**
-Aqui te dejamos nuestros enlaces!
+Si te gusta nuestro trabajo y quieres saber más de nosotras, no dudes en [**ponerte en contacto con This is me!**](https://github.com/Adalab/project-promo-l-module-2-team-2/graphs/contributors)
+¡Aquí te dejamos nuestros enlaces!
 
 Somos:
 
@@ -69,6 +69,7 @@ Somos:
 - [Laura Portillo](https://www.linkedin.com/in/laura-portillo-rodr%C3%ADguez-21965a86/)
 - [Sagra Mielgo](https://www.linkedin.com/in/sagramielgo/)
 - [Sara Martínez](https://www.linkedin.com/in/saramartara/)
+
 
 ### Agradecimientos
 
