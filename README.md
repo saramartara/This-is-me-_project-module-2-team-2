@@ -20,7 +20,9 @@ La forma de exponernos condiciona cómo nos ven los demás. Preséntate con una 
 
 ### Nuestra web
 
-Haz click aqui si quieres ver [This is me Project!][beta]
+Haz click aquí si quieres ver [This is me Project!][beta]
+
+No te pierdas el [vídeo promo del proyecto.](https://www.youtube.com/watch?v=SfTgr9eAIKc)
 
 ## Descripción Técnica
 
